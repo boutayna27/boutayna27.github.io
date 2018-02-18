@@ -8,6 +8,19 @@
    bottom: 50px;
 }
 
+header.fixed {
+	position:fixed;
+	top:0;
+	left:0;
+	width: 100%;
+}
+
+header.fixed > nav {
+	max-width: 1000px;
+	width: 80%;
+	margin: auto;
+}
+
 #nav {
 	text-align: center;
 }

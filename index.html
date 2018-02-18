@@ -56,11 +56,11 @@
 		  // Using jQuery's animate() method to add smooth page scroll
 		  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
 		  $('html, body').animate({
-			scrollTop: $(hash).offset().top
+			scrollTop: $(hash).offset().top - 75
 		  }, 800, function(){
 	   
 			// Add hash (#) to URL when done scrolling (default click behavior)
-			window.location.hash = hash;
+			//window.location.hash = hash;
 		  });
 		} // End if
 	  });
@@ -88,7 +88,7 @@
 			</ul>
 		</div>
 	  
-      <a class="button button-primary" href="" onclick="_gaq.push(['_trackEvent', 'skeleton', 'download'])">Télécharger le Business Plan</a>
+      <a class="button button-primary" href="">Télécharger le Business Plan</a>
       <div class="value-props row">
         <div class="four columns value-prop">
           <a href="#intro"> <img class="value-img" src="images/feather.svg"> </a>
@@ -105,53 +105,54 @@
       </div>
     </section>
 
-
-    <nav class="navbar">
-        <ul class="navbar-list">
-          <li class="navbar-item dropdown">
-			<a class="navbar-link" href="#intro">Introduction</a>
-			<div class="dropdown-content">
-				<a href="#">Présentation du projet</a>
-				<a href="#">dépôt des statuts</a>
-				<a href="#">Locaux</a>
-				<a href="#">Présentation de l'équipe</a>
-				<a href="#">Produit et service</a>
-			</div>		  
-		  </li>
-		  
-          <li class="navbar-item dropdown">
-			<a class="navbar-link" href="#marche">Le marché</a>
-			<div class="dropdown-content">
-				<a href="#">Analyse de l'environnement</a>
-				<a href="#">Analyse des consommateurs</a>
-				<a href="#">Opportunités et risques</a>
-				<a href="#">Analyse SWOT</a>
-				<a href="#">Cross SWOT</a>
-			</div>	
-		  </li>
-		  
-		  <li class="navbar-item dropdown">
-			<a class="navbar-link" href="#produit">Notre produit</a>
-			<div class="dropdown-content">
-				<a href="#">Valeurs et mission</a>
-				<a href="#">Objectifs et plan d'action</a>
-			</div>	
-		  </li>
-		  
-		  <li class="navbar-item dropdown">
-			<a class="navbar-link" href="#plan">Plan et stratégie</a>
-			<div class="dropdown-content">
-				<a href="#">Business Model Canvas</a>
-				<a href="#">Développement du produit</a>
-				<a href="#">Stratégie Marketing</a>
-				<a href="#">Stratégie de financement</a>
-				<a href="#">Analyse financière</a>
-			</div>	
-		  </li>
-		  <li class="navbar-item"><a class="navbar-link" href="#conclusion">Conclusion</a></li>
-		  <li class="navbar-item"><a class="navbar-link" href="#formulaire">Contactez nous</a></li>
-        </ul>
-    </nav>
+	<header>
+		<nav class="navbar">
+			<ul class="navbar-list">
+			  <li class="navbar-item dropdown">
+				<a class="navbar-link" href="#intro">Introduction</a>
+				<div class="dropdown-content">
+					<a href="#">Présentation du projet</a>
+					<a href="#">dépôt des statuts</a>
+					<a href="#">Locaux</a>
+					<a href="#">Présentation de l'équipe</a>
+					<a href="#">Produit et service</a>
+				</div>		  
+			  </li>
+			  
+			  <li class="navbar-item dropdown">
+				<a class="navbar-link" href="#marche">Le marché</a>
+				<div class="dropdown-content">
+					<a href="#">Analyse de l'environnement</a>
+					<a href="#">Analyse des consommateurs</a>
+					<a href="#">Opportunités et risques</a>
+					<a href="#">Analyse SWOT</a>
+					<a href="#">Cross SWOT</a>
+				</div>	
+			  </li>
+			  
+			  <li class="navbar-item dropdown">
+				<a class="navbar-link" href="#produit">Notre produit</a>
+				<div class="dropdown-content">
+					<a href="#">Valeurs et mission</a>
+					<a href="#">Objectifs et plan d'action</a>
+				</div>	
+			  </li>
+			  
+			  <li class="navbar-item dropdown">
+				<a class="navbar-link" href="#plan">Plan et stratégie</a>
+				<div class="dropdown-content">
+					<a href="#">Business Model Canvas</a>
+					<a href="#">Développement du produit</a>
+					<a href="#">Stratégie Marketing</a>
+					<a href="#">Stratégie de financement</a>
+					<a href="#">Analyse financière</a>
+				</div>	
+			  </li>
+			  <li class="navbar-item"><a class="navbar-link" href="#conclusion">Conclusion</a></li>
+			  <li class="navbar-item"><a class="navbar-link" href="#formulaire">Contactez nous</a></li>
+			</ul>
+		</nav>
+	</header>
 
     <!-- Business plan -->
     <div class="docs-section">
@@ -767,135 +768,249 @@
 		</p>
 		<b>Détail sur nos ventes </b> 
 		<p align="justify">
-		Our business value is the view made on our clients ads. We intend to have a sell by view policy. Each company willing to work with us will be able to set several messages at certain location and a number of view needed for a certain type of prospect (according to their age, gender, interest and paths).
+		Sur les deux premières années de vente, 3 offres principales seront vendues. Les ventes commenceront en amont de la sortie de l’application finale, c’est à dire durant la Beta. Nos prix ont été calculés sur la base du prix moyen du clic sur Google et autres offres de marketing sur Internet. Grâce à nos arguments d’hyperciblage et de reporting précis, nous appliquons un facteur multiplicateur de 2 à ce prix moyen, ce qui nous permet d’atteindre nos objectifs avec un nombre raisonnable de clients. Enfin, avec une estimation à 75% de nos objectifs, nous sommes encore bénéficiaires, et seule une descente à 50% de nos objectifs clients nous amènerait à un équilibre à zéro pour l’année 3.
 		</p>
 		<p align="justify">
-		Price for premium messages: 150€ for 1000 views. <br>
-		Price for standard messages: 100€ for 1000 views.
+			<b>Offre 1 :</b> Messages publicitaires standards (hyperciblage)
+
+			Le prix de la vue est ici pris à l’équivalence du prix du clic sur les recherches Google AdSense, c’est à dire à 10 centimes. Les offres sont vendues au millier de vue et nous visons les petits commerces régionaux avec ce premier stade. Le ticket moyen s’élève à 300€ (3 messages) sur la première année de ventes, puis à 2 000€ (20 messages) l’année suivante (le nombre de messages achetés montant avec la popularité du réseau).
+
+			Objectif de vente en année 2 : 16 entreprises clientes
+			Objectif de vente en année 3 : 100 entreprises clientes
+		</p>
+		<p align="justify">
+			<b>Offre 2 :</b> Messages publicitaires premium (hyperciblage & reporting)
+
+			Cette offre est tarifée à 20 centimes d’euros par vue, sur des packets de mille vues également. Le reporting est beaucoup plus précis et les publicités sont plus mises en avant. L’hyperciblage reste de vigueur. Cette offre est conçue pour des chaînes nationales dans la restauration ou le vestimentaire. Le ticket moyen s’élève à 6 000€ sur l’année 2 (campagne publicitaire d’essai), puis à 12 000€ sur l’année 3, soit 60 annonces dans les grandes villes de France sur toute l’année.
+
+			Objectif de vente en année 2 : 6 entreprises clientes
+			Objectif de vente en année 3 : 21 entreprises clientes
+		</p>
+		<p align="justify">
+			<b>Offre 3 :</b> Édition de contenu, persistencepersistance des messages, mise en avant hors publicité (promoteurs)
+
+			Réservée aux promoteurs de contenu, cette offre est un abonnement mensuel à hauteur de 400€ par mois sur sa forme la plus complète. Elle comprend l’accès complet à la plateforme d’édition de contenu géolocalisé, un service de création de contenu 3D, une persistencepersistance de messages à thématique culturelle, touristique ou événementielle. Le nombre de messages publiables n’est pas fixé pour le moment, mais les tests Alpha et Beta nous permettront de choisir une quantité intéressante pour le réseau et les promoteurs.
+
+			Objectif de vente en année 2 : 4 établissements abonnés à l’année (en moyenne)
+			Objectif de vente en année 3 : 10 établissements abonnés à l’année (en moyenne)
 		</p>
 		
+		<p align="justify">
+			<b>Résultats :</b>
+
+			À 100% de nos objectifs, nous atteignons les montants indiqués dans l’analyse financière détaillée plus haut.
+		</p>
+		
+		<table class="u-full-width">
+		  <thead>
+			<tr>
+			  <th>Année 2 - 100%</th>
+			  <th>Clients</th>
+			  <th>Contrat moyen/an</th>
+			  <th>Total</th>
+			  <th>Pourcentage de ventes</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<tr>
+			  <td>Offre 1</td>
+			  <td>16</td>
+			  <td>300</td>
+			  <td>4 800</td>
+			  <td>8%</td>
+			</tr>
+			<tr>
+			  <td>Offre 2</td>
+			  <td>6</td>
+			  <td>6 000</td>
+			  <td>36 000</td>
+			  <td>60%</td>
+			</tr>
+			<tr>
+			  <td>Offre 3</td>
+			  <td>6</td>
+			  <td>4 800</td>
+			  <td>19 200</td>
+			  <td>32%</td>
+			</tr>
+			<tr>
+			  <td>Total</td>
+			  <td></td>
+			  <td></td>
+			  <td>60 000</td>
+			  <td></td>
+			</tr>
+		  </tbody>
+		</table>
 		
 		
 		
+		
+		
+				<table class="u-full-width">
+		  <thead>
+			<tr>
+			  <th>Année 3 - 100%</th>
+			  <th>Clients</th>
+			  <th>Contrat moyen/an</th>
+			  <th>Total</th>
+			  <th>Pourcentage de ventes</th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<tr>
+			  <td>Offre 1</td>
+			  <td>100</td>
+			  <td>2 000</td>
+			  <td>252 000€</td>
+			  <td>40%</td>
+			</tr>
+			<tr>
+			  <td>Offre 2</td>
+			  <td>21</td>
+			  <td>12 000</td>
+			  <td>48 000</td>
+			  <td>50%</td>
+			</tr>
+			<tr>
+			  <td>Offre 3</td>
+			  <td>10</td>
+			  <td>4 800</td>
+			  <td>19 200</td>
+			  <td>10%</td>
+			</tr>
+			<tr>
+			  <td>Total</td>
+			  <td></td>
+			  <td></td>
+			  <td>500 000</td>
+			  <td></td>
+			</tr>
+		  </tbody>
+		</table>
+		
+		
+		
+		<p align="justify">
+			À 75% de nos objectifs, les gains sont évidement moins importants mais nous restons rentables. Nous arrivons à une perte de -76 200€ sur la deuxième année, puis à des gains de 103 500€ sur l’année trois, venant compenser les pertes des deux années précédentes.
+		</p>			
 				
-		
-		
-		
-		<!-- TIMELINE -->
-<section class="cd-horizontal-timeline" id="timeline">
-	<div class="timeline">
-		<div class="events-wrapper">
-			<div class="events">
+		<h6 class="docs-header" id="conclusion">Roadmap</h6>				
+				<!-- TIMELINE -->
+		<section class="cd-horizontal-timeline" id="timeline">
+			<div class="timeline">
+				<div class="events-wrapper">
+					<div class="events">
+						<ol class="timeline-list">
+							<li><a href="#0" data-date="01/03/2018" class="selected">01 Mars</a></li>
+							<li><a href="#0" data-date="01/09/2018">01 Sept</a></li>
+							<li><a href="#0" data-date="01/03/2019">01 Mars</a></li>
+							<li><a href="#0" data-date="01/09/2019">01 Sept</a></li>
+							<li><a href="#0" data-date="01/01/2020">01 Janv</a></li>
+							<li><a href="#0" data-date="01/02/2020">01 Févr</a></li>
+							<li><a href="#0" data-date="01/03/2020">01 Mars</a></li>
+							<li><a href="#0" data-date="01/09/2020">01 Sept</a></li>
+						</ol>
+
+						<span class="filling-line" aria-hidden="true"></span>
+					</div> <!-- .events -->
+				</div> <!-- .events-wrapper -->
+					
+				<ul class="cd-timeline-navigation timeline-list">
+					<li><a href="#0" class="prev inactive">Prev</a></li>
+					<li><a href="#0" class="next">Next</a></li>
+				</ul> <!-- .cd-timeline-navigation -->
+			</div> <!-- .timeline -->
+
+			<div class="events-content">
 				<ol class="timeline-list">
-					<li><a href="#0" data-date="01/03/2018" class="selected">01 Mars</a></li>
-					<li><a href="#0" data-date="01/09/2018">01 Sept</a></li>
-					<li><a href="#0" data-date="01/03/2019">01 Mars</a></li>
-					<li><a href="#0" data-date="01/09/2019">01 Sept</a></li>
-					<li><a href="#0" data-date="01/01/2020">01 Janv</a></li>
-					<li><a href="#0" data-date="01/02/2020">01 Févr</a></li>
-					<li><a href="#0" data-date="01/03/2020">01 Mars</a></li>
-					<li><a href="#0" data-date="01/09/2020">01 Sept</a></li>
+					<li class="selected" data-date="01/03/2018">
+						<em>01 Mars 2018</em>
+						<h6>Finance</h6>
+						<p> Recherche d'investisseurs</p>
+						<h6>Technique</h6>
+						<p> Développement de la version Alpha</p>
+						<h6>Marketing</h6>
+						<p> Recherche de partenaires</p>
+						<h6>Ressources humaines</h6>
+						<p> 5 fondateurs, non rénumérés</p>
+					</li>
+
+					<li data-date="01/09/2018">
+						<em>01 Septembre 2018</em>
+						<h6>Finance</h6>
+						<p> Prêt : 20 000€, levée de fond : 30 000€, apport personnel : 10 000€</p>
+						<h6>Technique</h6>
+						<p> Développement de la version Beta, Data Mining</p>
+						<h6>Marketing</h6>
+						<p> Signature de contrats et réalisation de contenu par nos partenaires </p>
+						<h6>Ressources humaines</h6>
+						<p> 5 fondateurs, non rénumérés</p>
+					</li>
+					
+					<li data-date="01/03/2019">
+						<em>01 Mars 2019</em>
+						<h6>Finance</h6>
+						<p> Recherche d'investisseurs</p>
+						<h6>Technique</h6>
+						<p> Développement de la version Beta, Data Mining</p>
+						<h6>Marketing</h6>
+						<p> Signature de contrats et réalisation de contenu par nos partenaires </p>
+						<h6>Ressources humaines</h6>
+						<p> 5 fondateurs, non rénumérés</p>
+					</li>
+
+					<li data-date="01/09/2019">
+						<em>01 Septembre 2019</em>
+						<h4>Finance</h6>
+						<p> Levée de fonds : 170 000€</p>
+						<h6>Technique</h6>
+						<p> Beta test ouverte</p>
+						<h6>Marketing</h6>
+						<p> Contrats publicitaires</p>
+						<h6>Ressources humaines</h6>
+						<p> 5 fondateurs rénumérés et recrutement de deux personnes supplémentaires, recrutement de stagiaires</p>
+					</li>
+					
+					<li data-date="01/01/2020">
+						<em>01 Janvier 2020</em>
+						<h6>Marketing</h6>
+						<p> Mise en place d'une stratégie plus détaillée </p>
+					</li>
+					
+					<li data-date="01/02/2020">
+						<em>01 Février 2020</em>
+						<h6>Technique</h6>
+						<p> Ouverture du site web pour le lancement de Rocket</p>
+					</li>			
+						
+					<li data-date="01/03/2020">
+						<em>01 Mars 2020</em>
+						<h6>Finance</h6>
+						<p> Ventes 90 000€</p>
+						<h6>Technique</h6>
+						<p> Maintenance et mises à jour</p>
+						<h6>Marketing</h6>
+						<p> Evénements particuliers</p>
+						<h6>Ressources humaines</h6>
+						<p> 5 fondateurs rénumérés et recrutement de deux personnes supplémentaires, recrutement de stagiaires</p>
+					</li>
+
+					<li data-date="01/09/2020">
+						<em>01 Septembre 2020</em>
+						<h6>Finance</h6>
+						<p> 5 fondateurs rénumérés et recrutement de deux personnes supplémentaires, recrutement de stagiaires</p>
+						<h6>Technique</h6>
+						<p> Maintenance et mises à jour</p>
+						<h6>Marcketing</h6>
+						<p> Evénements particuliers</p>
+						<h6>Ressources humaines</h6>
+						<p> 5 fondateurs rénumérés et recrutement de deux personnes supplémentaires, recrutement de stagiaires</p>
+					</li>
+					
 				</ol>
-
-				<span class="filling-line" aria-hidden="true"></span>
-			</div> <!-- .events -->
-		</div> <!-- .events-wrapper -->
-			
-		<ul class="cd-timeline-navigation timeline-list">
-			<li><a href="#0" class="prev inactive">Prev</a></li>
-			<li><a href="#0" class="next">Next</a></li>
-		</ul> <!-- .cd-timeline-navigation -->
-	</div> <!-- .timeline -->
-
-	<div class="events-content">
-		<ol class="timeline-list">
-			<li class="selected" data-date="01/03/2018">
-				<em>01 Mars 2018</em>
-				<h6>Finance</h6>
-				<p> Recherche d'investisseurs</p>
-				<h6>Technique</h6>
-				<p> Développement de la version Alpha</p>
-				<h6>Marketing</h6>
-				<p> Recherche de partenaires</p>
-				<h6>Ressources humaines</h6>
-				<p> 5 fondateurs, non rénumérés</p>
-			</li>
-
-			<li data-date="01/09/2018">
-				<em>01 Septembre 2018</em>
-				<h6>Finance</h6>
-				<p> Prêt : 20 000€, levée de fond : 30 000€, apport personnel : 10 000€</p>
-				<h6>Technique</h6>
-				<p> Développement de la version Beta, Data Mining</p>
-				<h6>Marketing</h6>
-				<p> Signature de contrats et réalisation de contenu par nos partenaires </p>
-				<h6>Ressources humaines</h6>
-				<p> 5 fondateurs, non rénumérés</p>
-			</li>
-			
-			<li data-date="01/03/2019">
-				<em>01 Mars 2019</em>
-				<h6>Finance</h6>
-				<p> Recherche d'investisseurs</p>
-				<h6>Technique</h6>
-				<p> Développement de la version Beta, Data Mining</p>
-				<h6>Marketing</h6>
-				<p> Signature de contrats et réalisation de contenu par nos partenaires </p>
-				<h6>Ressources humaines</h6>
-				<p> 5 fondateurs, non rénumérés</p>
-			</li>
-
-			<li data-date="01/09/2019">
-				<em>01 Septembre 2019</em>
-				<h4>Finance</h6>
-				<p> Levée de fonds : 170 000€</p>
-				<h6>Technique</h6>
-				<p> Beta test ouverte</p>
-				<h6>Marketing</h6>
-				<p> Contrats publicitaires</p>
-				<h6>Ressources humaines</h6>
-				<p> 5 fondateurs rénumérés et recrutement de deux personnes supplémentaires, recrutement de stagiaires</p>
-			</li>
-			
-			<li data-date="01/01/2020">
-				<em>01 Janvier 2020</em>
-				<h6>Marketing</h6>
-				<p> Mise en place d'une stratégie plus détaillée </p>
-			</li>
-			
-			<li data-date="01/02/2020">
-				<em>01 Février 2020</em>
-				<h6>Technique</h6>
-				<p> Ouverture du site web pour le lancement de Rocket</p>
-			</li>			
-				
-			<li data-date="01/03/2020">
-				<em>01 Mars 2020</em>
-				<h6>Finance</h6>
-				<p> Ventes 90 000</p>
-				<h6>Technique</h6>
-				<p> Maintenance et mises à jour</p>
-				<h6>Marketing</h6>
-				<p> Evénements particuliers</p>
-				<h6>Ressources humaines</h6>
-				<p> 5 fondateurs rénumérés et recrutement de deux personnes supplémentaires, recrutement de stagiaires</p>
-			</li>
-
-			<li data-date="01/09/2020">
-				<em>01 Septembre 2020</em>
-				<h6>Finance</h6>
-				<p> 5 fondateurs rénumérés et recrutement de deux personnes supplémentaires, recrutement de stagiaires</p>
-				<h6>Technique</h6>
-				<p> Maintenance et mises à jour</p>
-				<h6>Marcketing</h6>
-				<p> Evénements particuliers</p>
-				<h6>Ressources humaines</h6>
-				<p> 5 fondateurs rénumérés et recrutement de deux personnes supplémentaires, recrutement de stagiaires</p>
-			</li>
-			
-		</ol>
-	</div> <!-- .events-content -->
-</section>
+			</div> <!-- .events-content -->
+		</section>
 
 		<h6 class="docs-header" id="conclusion">Conclusion</h6>
 		<p align="justify">
@@ -908,7 +1023,7 @@
 		L’entreprise est conséquente et nous n’atteindrons nos objectifs que si Rocket profite dès le départ des ressources nécessaires, à la fois financières et humaines. Ce n’est pas sans raison que le symbole de Rocket est une fusée : son but est d’aller loin, et il lui faut pour cela tout le carburant et l’expertise nécessaire !
 		</p>
 		<center>
-		Nous vous invitons à nous contacter à travers le formulaire ci-dessous pour toute prise de renseignement ou de rendez-vous :
+		Nous vous invitons à nous contacter en utilisant l'adresse suivante :"contact@rocket-ar.com" ou à travers le formulaire ci-dessous pour toute prise de renseignement ou de rendez-vous :
 		</center>
 		
 		<a href="#titre" id="topButton"> <i class="fas fa-arrow-circle-up fa-3x"></i> </a>
@@ -944,6 +1059,31 @@
     </div>
 
   </div>
+  
+    <script>
+	/*
+  var header = document.querySelector("header");
+  var limit = document.getElementById("intro");
+
+	function scrolled(){
+		var windowHeight = document.body.clientHeight,
+			currentScroll = document.body.scrollTop || document.documentElement.scrollTop;
+		
+		header.className = (currentScroll >= limit.offsetHeight) ? "fixed" : "";
+	}
+
+	addEventListener("scroll", scrolled, false);
+	*/
+	
+	$(window).scroll(function() {
+		if(!$('header').hasClass("fixed") && ($(window).scrollTop() > $('header').offset().top)) {
+			$('header').addClass("fixed").data("top", $('header').offset().top);
+		}
+		else if ($('header').hasClass("fixed") && ($(window).scrollTop() < $('header').data("top"))) {
+			$('header').removeClass("fixed");
+		}
+	});
+</script>
 	
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
