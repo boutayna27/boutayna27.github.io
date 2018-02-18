@@ -1,297 +1,951 @@
-<!DOCTYPE HTML>
-<!--
-	Strongly Typed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Rocket</title>
-		<link rel="shortcut icon" type="image/x-icon" href="images/logo_Rocket.jpg" />
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body class="homepage">
-		<div id="page-wrapper">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
 
-			<!-- Header -->
-				<div id="header-wrapper">
-					<div id="header" class="container">
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Rocket</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-						<!-- Logo -->
-							<h1 id="logo"><a href="index.html">Rocket</a></h1>
-							<p>Un slogan super mega génial.</p>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-									<li class="icon fa-twitter"></li>
-									<li class="icon fa-instagram"></li>
-									<li class="icon fa-dribbble"></li>
-									<li class="icon fa-facebook"></li>
-								</ul>
-							</nav>
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-					</div>
-				</div>
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
 
-			<!-- Features -->
-				<div id="features-wrapper">
-					<section id="features" class="container">
-						Ceci est une petite description du projet.<br/>Nec minus feminae quoque calamitatum participes fuere similium. nam ex hoc quoque sexu peremptae sunt originis altae conplures, adulteriorum flagitiis obnoxiae vel stuprorum. inter quas notiores fuere Claritas et Flaviana, quarum altera cum duceretur ad mortem, indumento, quo vestita erat, abrepto, ne velemen quidem secreto membrorum sufficiens retinere permissa est. 
-						ideoque carnifex nefas admisisse convictus inmane, vivus exustus est. Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?
-					</section>
-				</div>
+  <!-- JQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  
+  <!-- Timeline
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/timeline.css">
+  <script type="text/javascript" src="js/timeline.js"></script>
 
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/logo_Rocket.jpg">
+  
+  <!-- Smooth scroll
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<script>
+	$(document).ready(function(){
+	  // Add smooth scrolling to all links
+	  $("a").on('click', function(event) {
 
+		// Make sure this.hash has a value before overriding default behavior
+		if (this.hash !== "") {
+		  // Prevent default anchor click behavior
+		  event.preventDefault();
 
-			<!-- Main -->
-				<div id="main-wrapper">
-					<div id="main" class="container">
-						<div class="row">
+		  // Store hash
+		  var hash = this.hash;
 
-							<!-- Content -->
-								<div id="content" class="8u 12u(mobile)">
-
-									<!-- Post -->
-										
-										<!-- Post -->
-										<!--
-										<article class="box post">
-											<br/>
-											<a href="#" class="image featured"><img src="images/gif.gif" height="500" width="100" alt="" /></a>
-
-										</article>
-										-->
-
-										<!-- Post --><!--
-										<article class="box post">
-											<br/>
-											<h3>L'équipe</h3>
-											
-										</article>
-										-->
-										
-										<!-- Post -->
-										<article class="box post">
-											<h3>Le concept</h3>
-											<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-											ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-											sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											justo mattis pharetra.</p>
-										</article>
-										
-										
-										<!-- Post -->
-										<article class="box post">
-											<h3>Valeur ajoutée et éléments différenciants</h3>
-											<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-											ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-											sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											justo mattis pharetra.</p>
-										</article>
-										
-										
-										<!-- Post -->
-										<article class="box post">
-											<h3>Stratégie d'acquisition</h3>
-											<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-											ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-											sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											justo mattis pharetra.</p>
-										</article>
-										
-										
-										<!-- Post -->
-										<article class="box post">
-											<h3>Modèle économique</h3>
-											<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-											ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-											sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											justo mattis pharetra.</p>
-										</article>
-										
-										
-										
-										<!-- Post -->
-										<article class="box post">
-											<h3>Le marché</h3>
-											<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-											ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-											sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											justo mattis pharetra.</p>
-										</article>
-										
-										
-										<!-- Post -->
-										<article class="box post">
-											<h3>La concurrence</h3>
-											<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-											ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-											sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											justo mattis pharetra.</p>
-										</article>
-										
-										
-										<!-- Post -->
-										<article class="box post">
-											<h3>Utilisation des fonds</h3>
-											<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-											ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-											sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											justo mattis pharetra.</p>
-										</article>
-										
-										
-										
-										<!-- Post -->
-										<article class="box post">
-											<h3>Plan d'action</h3>
-											<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-											ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-											sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											justo mattis pharetra.</p>
-										</article>
-										
-									
-										
-										<!-- Post -->
-										<article class="box post">
-											<h3>Futur / Objectifs</h3>
-											<p>Phasellus laoreet massa id justo mattis pharetra. Fusce suscipit
-											ligula vel quam viverra sit amet mollis tortor congue. Sed quis mauris
-											sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada
-											in, tristique at erat lorem ipsum dolor sit amet lorem ipsum sed consequat
-											magna tempus veroeros lorem sed tempus aliquam lorem ipsum veroeros
-											consequat magna tempus lorem ipsum consequat Phasellus laoreet massa id
-											justo mattis pharetra.</p>
-										</article>
-
-								</div>
+		  // Using jQuery's animate() method to add smooth page scroll
+		  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		  $('html, body').animate({
+			scrollTop: $(hash).offset().top
+		  }, 800, function(){
+	   
+			// Add hash (#) to URL when done scrolling (default click behavior)
+			window.location.hash = hash;
+		  });
+		} // End if
+	  });
+	});
+	</script>
 
 
+</head>
+<body>
 
-						</div>
-					</div>
-				</div>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
 
-			<!-- Footer -->
-				<div id="footer-wrapper">
-					<div id="footer" class="container">
-						<header>
-							<h2>Questions ou commentaires? <strong>Contactez nous:</strong></h2>
-						</header>
-						<div class="row">
-							<div class="6u 12u(mobile)">
-								<section>
-									<form method="post" action="#">
-										<div class="row 50%">
-											<div class="6u 12u(mobile)">
-												<input name="name" placeholder="Name" type="text" />
-											</div>
-											<div class="6u 12u(mobile)">
-												<input name="email" placeholder="Email" type="text" />
-											</div>
-										</div>
-										<div class="row 50%">
-											<div class="12u">
-												<textarea name="message" placeholder="Message"></textarea>
-											</div>
-										</div>
-										<div class="row 50%">
-											<div class="12u">
-												<a href="#" class="form-button-submit button icon fa-envelope">Envoyer</a>
-											</div>
-										</div>
-									</form>
-								</section>
-							</div>
-							<div class="6u 12u(mobile)">
-								<section>
-									<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet
-									mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur
-									leo nibh, rutrum eu malesuada.</p>
-									<div class="row">
-										<div class="6u 12u(mobile)">
-											<ul class="icons">
-												<li class="icon fa-home">
-													1234 Somewhere Road<br />
-													Nashville, TN 00000<br />
-													USA
-												</li>
-												<li class="icon fa-phone">
-													(000) 000-0000
-												</li>
-												<li class="icon fa-envelope">
-													<a href="#">info@untitled.tld</a>
-												</li>
-											</ul>
-										</div>
-										<div class="6u 12u(mobile)">
-											<ul class="icons">
-												<li class="icon fa-twitter">
-													<a href="#">@Rocket</a>
-												</li>
-												<li class="icon fa-instagram">
-													<a href="#">instagram.com/Rocket</a>
-												</li>
-												<li class="icon fa-dribbble">
-													<a href="#">dribbble.com/Rocket</a>
-												</li>
-												<li class="icon fa-facebook">
-													<a href="#">facebook.com/Rocket</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</section>
-							</div>
-						</div>
-					</div>
-					<div id="copyright" class="container">
-						<ul class="links">
-							<li>&copy; Rocket. All rights reserved.</li><li>Design: <a href="lien">CrocoCrew</a></li>
-						</ul>
-					</div>
-				</div>
+    <section class="header">
+      <h2 class="title" id="titre">Rocket</h2>
+	  
+		<!-- Social Buttons -->
+		<div id="nav">
+			<ul>
+				<a href = ""><li class="fab fa-twitter fa-3x"></li></a>
+				<a href = ""><li class="fab fa-instagram fa-3x"></li></a>
+				<a href = ""><li class="fab fa-dribbble fa-3x"></li></a>
+				<a href = "https://www.facebook.com/Rocket-1806098379691976/"><li class="fab fa-facebook fa-3x"></li></a>
+			</ul>
+		</div>
+	  
+      <a class="button button-primary" href="" onclick="_gaq.push(['_trackEvent', 'skeleton', 'download'])">Télécharger le Business Plan</a>
+      <div class="value-props row">
+        <div class="four columns value-prop">
+          <a href="#intro"> <img class="value-img" src="images/feather.svg"> </a>
+          Introduction
+        </div>
+        <div class="four columns value-prop">
+          <a href="#produit"> <img class="value-img" src="images/pens.svg"> </a>
+          Notre produit
+        </div>
+        <div class="four columns value-prop">
+          <a href="#plan"> <img class="value-img" src="images/watch.svg"> </a>
+          Plan & Stratégie
+        </div>
+      </div>
+    </section>
 
+
+    <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item dropdown">
+			<a class="navbar-link" href="#intro">Introduction</a>
+			<div class="dropdown-content">
+				<a href="#">Présentation du projet</a>
+				<a href="#">dépôt des statuts</a>
+				<a href="#">Locaux</a>
+				<a href="#">Présentation de l'équipe</a>
+				<a href="#">Produit et service</a>
+			</div>		  
+		  </li>
+		  
+          <li class="navbar-item dropdown">
+			<a class="navbar-link" href="#marche">Le marché</a>
+			<div class="dropdown-content">
+				<a href="#">Analyse de l'environnement</a>
+				<a href="#">Analyse des consommateurs</a>
+				<a href="#">Opportunités et risques</a>
+				<a href="#">Analyse SWOT</a>
+				<a href="#">Cross SWOT</a>
+			</div>	
+		  </li>
+		  
+		  <li class="navbar-item dropdown">
+			<a class="navbar-link" href="#produit">Notre produit</a>
+			<div class="dropdown-content">
+				<a href="#">Valeurs et mission</a>
+				<a href="#">Objectifs et plan d'action</a>
+			</div>	
+		  </li>
+		  
+		  <li class="navbar-item dropdown">
+			<a class="navbar-link" href="#plan">Plan et stratégie</a>
+			<div class="dropdown-content">
+				<a href="#">Business Model Canvas</a>
+				<a href="#">Développement du produit</a>
+				<a href="#">Stratégie Marketing</a>
+				<a href="#">Stratégie de financement</a>
+				<a href="#">Analyse financière</a>
+			</div>	
+		  </li>
+		  <li class="navbar-item"><a class="navbar-link" href="#conclusion">Conclusion</a></li>
+		  <li class="navbar-item"><a class="navbar-link" href="#formulaire">Contactez nous</a></li>
+        </ul>
+    </nav>
+
+    <!-- Business plan -->
+    <div class="docs-section">
+		<!-- INTRODUCTION -->
+      <h6 class="docs-header" id="intro">Introduction</h6>
+		<p align="center">
+		<i>“La communication mène à la communauté, c’est à dire à la compréhension, l’intimité et la valorisation mutuelle.”</i> Rollo May, psychologue américain (1909 - 1994).
+		</p>
+		<p align="justify">		
+		Chez Rocket, nous voulons rendre ce sens primaire de la communication au monde. Ce sens se perd de plus en plus à cause d’un développement centré sur la personne et non le contenu et la communauté. Les publicités se perdent à leur tour dans un flot d’information sans autre portée que le clic ou la vue. Dans ce cadre, le besoin de proximité renaît : connectées mais solitaires, beaucoup de personnes cherchent à retrouver un lien plus fort avec leur environnement direct.
+		</p>
+		<p align="justify">	
+		Les technologies naissent et se développent dans l’interface entre espaces réels et virtuels : réalité augmentée, mixte et géolocalisation. À cela s’ajoute une amélioration générale de l’intelligence sociale des machines : deep-learning, data-mining, analyse du langage naturel.
+		</p>
+		<p align="justify">	
+		L’idée de Rocket est née dans ce contexte propice et n’a cessé de progresser sur la voie de sa réalisation. Nous arrivons aujourd’hui au stade où Rocket va gagner en volume, passer au stade suivant et pour cela un financement est nécessaire.
+		</p>
+		<p align="justify">	
+		Ce document vous détaillera le concept et l’offre Rocket puis l’analyse du marché dans lequel elles se développera. Enfin, notre stratégie sur trois ans vous sera exposée par différents aspects (finance, campagne marketing, technologie…).
+		</p>
+		
+		
+		<!-- PRSENTATION DU PROJET -->
+		<h6 class="docs-header">Présentation du projet</h6>
+		<p align="justify">
+		Rocket est un réseau social où les messages sont géolocalisés et placé dans l’espace. Grâce à une application en réalité augmentée, le contenu est directement ancré au monde réel.
+		</p>
+		<p align="justify">
+		Public, ludique et participatif, Rocket plonge l’utilisateur dans un univers singulier pour lui faire découvrir ses alentours, partager ses avis, ses pensées. L’appréciation des messages permet ensuite de mettre en avant les plus captivants.
+		</p>
+		<p align="justify">
+		Un contenu riche est apporté par un très grand réseau de partenaires publics et associatifs autour des thèmes culturels, touristiques et événementiels. Rocket met ainsi en valeur le patrimoine et les curiosité locales partout en France dans un premier temps et rapidement dans le monde entier.
+		</p>
+		<p align="justify">
+		Le réseau Rocket offre un cadre de communication idéal pour de nombreuses entreprises clientes grâce au ciblage précis de la publicité. Géolocalisation et réalité augmentée sont ici au service d’un nouveau type de marketing.
+		</p>
+		
+		
+		
+		<!-- DEPOT DES STATUTS -->
+		<h6 class="docs-header">Dépôt des statuts</h6>
+		<p align="justify">
+		Rocket n’a pas encore de statut juridique. D’ici à Novembre 2018, nous recherchons une levée de fond de 30 000€ afin d’atteindre un capital de 60 000€ avec les apports personnels et les prêts bancaires. L’activité pourra alors se poursuivre sous le statut juridique d’une SAS.
+		</p>
+		
+		<!-- LOCAUX -->
+		<h6 class="docs-header">Locaux</h6>
+		<p align="justify">
+		Les premiers locaux de Rocket se situeront en incubateur (French Tech de Rennes St-Malo visé) afin de profiter de l’environnement hautement dynamique et technologique des start-ups rennaises. Notre activité étant essentiellement tournée vers des services, nous n’avons pas besoin de bureaux de grande taille. Lorsque les ventes débuteront, nous pourrons alors investir dans des locaux plus importants à Rennes. Rapidement, d’autre infrastructures seront établies dans les grandes villes de France puis à l’international.
+		</p>
+		
+		
+		<!-- EQUIPE -->
+		<h6 class="docs-header">L'équipe</h6>
+		
+		<div class="value-props row">
+			
+			<div class="three columns value-prop">
+			  <img class="u-full-width" src="images/boutayna.jpg">
+			</div>
+			<div class="nine columns value-prop">
+			  <p align="justify"> Boutayna effectue ses études à l’Institut National des Sciences Appliquées (INSA) de Rennes depuis 4 ans. Elle est spécialisée en IT et le développement est pour elle une passion : HTML, Java, C++ et SQL n’ont plus aucun secret pour elle. Boutayna apporte beaucoup de bonne humeur dans le groupe, elle pense toujours à ramener des cookies pour redonner de l’énergie et du dynamisme à toute l’équipe. </p>
+			</div>
+			
+		</div>
+		
+		<div class="value-props row">
+			
+			<div class="nine columns value-prop">
+			  <p align="justify"> Après une classe préparatoire, Romain a intégré Rennes School of Business en 2014. Durant sa première année d’école, il a été élu président de l’association de sport nautique : OCEANIA.  Romain adore les responsabilités et il est toujours partant pour démarrer un nouveau projet. D’ailleurs, en ce moment il travaille sur pas moins de 3 projets différents ! De l’équipe, il est celui qui est toujours positif et qui motive les troupes en toute situation.  </p>
+			</div>
+			<div class="three columns value-prop">
+			  <img class="u-full-width" src="images/romain.jpg">
+			</div>
+			
+		</div>
+		
+		<div class="value-props row">
+			
+			<div class="three columns value-prop">
+			  <img class="u-full-width" src="images/thomas.jpg">
+			</div>
+			<div class="nine columns value-prop">
+			  <p align="justify"> Thomas, comme Boutayna, étudie à l’INSA de Rennes, il est spécialisé en Génie Mécanique et Automatique (GMA). Il est touche à tout et il adore découvrir de nouvelles choses : apprendre à utiliser un nouveau logiciel, apprendre à tourner un film, réaliser des recherches sur un sujet qu’il ne connait pas… Thomas apporte de la créativité au groupe, il n’est jamais effrayé par la nouveauté et le changement. Il est une véritable source d’inspiration pour les quatres autres membres.  </p>
+			</div>
+			
+		</div>
+		
+		<div class="value-props row">
+			
+			<div class="nine columns value-prop">
+			  <p align="justify"> Comme Romain, Mathilde a intégré Rennes School of Business après une classe préparatoire. Membre de la Junior Entreprise de RSB, elle prend à coeur de délivrer des résultats et de remplir ses missions. A plusieurs reprises elle a travaillé en tant que Chef de Projet. Sa capacité à prévenir et résoudre les problèmes est un élément important pour le développement de Rocket. De plus, son sixième sens pour dénicher les frites les plus croustillantes de Rennes ravi ses coéquipiers. </p>
+			</div>
+			<div class="three columns value-prop">
+			  <img class="u-full-width" src="images/mathilde.jpg">					 
+			</div>
+			
+		</div>
+		
+		<div class="value-props row">
+			
+			<div class="three columns value-prop">
+			  <img class="u-full-width" src="images/paul.jpg">
+			</div>
+			<div class="nine columns value-prop">
+			  <p align="justify">  Ces 3 dernières années, Paul a étudié le commerce à l’EM Normandie. Il a un large réseau de connaissances qui est bénéfique pour l’équipe. Paul est vraiment à l’aise pour dialoguer avec les gens. Il est celui sur lequel le reste de l’équipe compte pour trouver de nouveaux partenariats permettant à Rochet de devenir viral. Paul est toujours le premier qui propose des activités au reste de l’équipe, il ressert les liens entre les membres du groupe. </p>
+			</div>
+			
 		</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+		<!-- PRODUIT/SERVICE -->
+		<h6 class="docs-header" id="produit">Produit et service</h6>
+		<p align="justify">
+		Rocket est un réseau social fonctionnant via une application mobile. Essentiellement, deux écrans réunissent la majorité des options :
+		</p>
+		<p align="justify">
+		Le premier est une carte des alentours de l’utilisateur. Il peut y voir l’ensemble des points où un message a été déposé. Les points ont une couleur et une taille différente en fonction du thème et de l’appréciation des messages (par les autres utilisateurs).
+		</p>
+		<p align="justify">
+		Le second est un écran de réalité augmentée. La caméra du smartphone retransmet en direct ce qu’elle voit tandis que des éléments 3D y sont ajoutés. L’utilisateur peut alors consulter les messages qui se situent tout autour de lui. Il peut toucher l’un des messages pour donner son avis (upvote / downvote) ou directement y répondre. Il a également la possibilité de publier un message à l’endroit où il se trouve.
+		</p>
+		<p align="justify">
+		Nos clients, c’est-à-dire les entreprises qui achètent de l’espace publicitaire, pourront alors profiter d’un ciblage d’un genre nouveau. La plupart des ciblages géographiques opèrent à l’échelle d’une ville entière, alors que Rocket propose une granularité plus intéressante : les utilisateurs verront la publicité à l’endroit précis où elle a été déposée, sans besoin d’installer un panneau publicitaire. Chaque vue est alors bien plus significative et nous quittons le marketing de masse pour un marketing personnalisé.
+		</p>
+		<p align="justify">
+		Une grande partie du contenu sera édité et publié par nos promoteurs. Il s’agit d’un type de clients particuliers qui ne réservent pas d’espace publicitaire mais qui peuvent profiter d’une visibilité sur les informations postées au prix d’un abonnement mensuel. Associations, établissements publics, entreprises ; l’offre concerne toutes les structures souhaitant distribuer un contenu géographiquement corrélé afin de promouvoir la culture, le tourisme, l’événementiel… Enfin, la dernière offre de Rocket consiste à créer un contenu 3D spécifique à des événements souhaitant utiliser la réalité augmentée (concerts, street-games, manifestations culturelles…).
+		</p>
+		
+		
+		<h6 class="docs-header" id="marche">Le marché</h6>
+		<p align="justify">
+		Dans cette partie nous allons aborder tout ce qui concerne l’environnement externe de Rocket.
+		</p>
+		
+		
+		
+		<h6 class="docs-header">Analyse de l'environnement</h6>
+		<p align="justify">
+		En ce qui concerne l’analyse de l’environnement de Rocket, il faut étudier deux éléments différents : les applications mais aussi le secteur des réseaux sociaux. 
+		</p>
+		<p align="justify">
+		Il existe des applications répondant à presque tous les besoins pour un prix très faible ou inexistant. Afin d’être compétitive et de se différencier sur le marché, une application doit répondre à un critère primordiale : son apport à l’utilisateur doit compenser le temps qu’il y investi. Cet apport peut être pratique comme divertissant et l’application ne sera activement utilisée que si elle fait partie des six applications les plus intéressantes pour l’usager. En effet, chaque utilisateur n’utilise qu’un nombre réduit d’application de façon quotidienne. [Infographie : http://www.relatia.fr/infographie-mobile-first-bilan-2016-et-tendances-2017/]
+		</p>
+		<p align="justify">
+		D’un autre côté, Rocket doit aussi se montrer compétitif sur le marché des réseaux sociaux. Ce dernier compte moins d’acteurs que celui des applications mais les plus importants sont des concurrents très implantés qui se partagent la majorité des utilisateurs (Facebook, Twitter, Snapchat...). La valeur d’un réseau social se calcule par l’activité et le dynamisme de sa communauté plus que par ses fonctionnalités. Ces dernières ont cependant pour rôle d’attirer la communauté d’utilisateurs. Rocket a donc décidé d’utiliser des technologies au coeur de son utilisation qui n’ont jamais été réunies dans d’autres réseaux sociaux. Un dernier point positif pour Rocket : la tendance actuelle va vers l’émergence de nouveaux réseaux sociaux étant donné que les millenials ne sont plus autant intéressés par Facebook que les générations précédentes.  
+		</p>
+		
+		
+		
+		<h6 class="docs-header">Analyse des consommateurs</h6>
+		<p align="justify">
+		Les usagers de Rocket peuvent être séparés en 3 catégories:
+		</p>
+		
+		<ul>
+			<li>Les utilisateurs. Ils forment la communauté et la valeur de Rocket. Nous visons un segment en particulier : les jeunes actifs, entre 20 et 30 ans, se déplaçant beaucoup et souhaitant découvrir leur ville d’une nouvelle manière. L’apport culturel et touristique de Rocket, couplé à ses nouveaux moyens de communication sont orientés vers cette cible. Par effet de bord, nous comptons toucher également les cibles plus jeunes, à la recherche de nouveaux réseaux sociaux plus ludiques.</li>
+			<li>Les clients. Ils sont la source de notre revenu. En échange d’un paiement mensuel, les entreprises pourront utiliser notre canal pour diffuser leur publicité et leurs offres. Notre principale cible est composée des corner-shops (magasins, restaurants, bars...). Nous nous différencions de nos concurrents par notre capacité à leur apporter un service plus qualitatif et une fonction reporting plus intéressante (mesure très précise du retour que provoque leur publicité). De plus la géolocalisation des campagnes marketing va être un élément différenciant de notre offre par rapport à celles de nos concurrents. Nous ciblons en priorité les grandes chaînes nationales avec pour objectif à long terme que les petits commerces suivent la tendance.</li>
+			<li>Les promoteurs de contenu. Pour la plupart, les promoteurs sont des entités publiques ou associatives (mairies, musées, associations…). Gratuitement pour l’offre la plus petite ou au prix d’un abonnement mensuel, ils profitent d’une visibilité améliorée, de messages permanents et de contenus spéciaux (objets 3D, messages animés…).</li>
+		</ul>
+		
+		
+		<h6 class="docs-header">Les opportunités et risques / Analyse du produit</h6>
+		
+		<p align="justify">
+		Afin d’étudier et d’analyser les risques et opportunités que va pouvoir rencontrer Rocket, nous avons décidé d’étudier le modèle de Porter pour choisir quelle position adopter face à notre environnement :  
+		</p>
+		<p align="justify">
+		Premièrement, le pouvoir de négociation des fournisseurs. Nos fournisseurs vont être des agences par lesquelles nous allons passer pour développer : notre identité graphique, notre application ainsi que parfois certains événements marketing.  Le pouvoir de négociation des fournisseurs sera dans un premier temps assez fort puisque nous dépendrons beaucoup de leur travail. Cependant, nous avons décidé d’internaliser le développement de l’application assez rapidement grâce à nos premiers résultats. Nous aurons donc besoin d’embaucher pour réduire notre dépendance aux fournisseurs.
+		</p>
+		<p align="justify">
+		Deuxièmement, le pouvoir de négociation des acheteurs. Ces derniers sont les entreprises qui souhaitent utiliser notre réseau social pour diffuser leurs messages marketing. Notre cible principale se compose des magasins ayant pignon sur rue étant donné qu’ils ont un intérêt à déposer de la publicité géolocalisée. Pour ces magasins nous sommes intéressants car nous pouvons leur fournir un reporting plus précis que les autres réseaux sociaux sur le retour de leur publicité (le ticket moyen, les ventes duent à la campagne, le nombre de personnes qui sont rentrées dans le magasin grâce à la publicité…). Il faut cependant rappeler que toutes ces fonctionnalités ont peu d’intérêt si la communauté utilisant le réseau social n’est pas assez grande. Nous pouvons donc dire que le pouvoir de négociation des acheteurs dépendra de notre communauté. Plus cette dernière sera grande et active, moins les publicitaires auront de pouvoir.
+		</p>
+		<p align="justify">
+		Ensuite viennent les substituts. Ils correspondent aux agences de marketing classiques. Ces dernières proposent un service clé en main avec la génération de contenu et le management de la campagne marketing de A à Z. Cependant, contrairement à Rocket, elles ne sont pas capables de fournir autant de données sur le retour de la campagne. Il est envisageable de penser à une collaboration entre Rocket et les agences classiques de marketing, notre application pourrait être un nouveau canal de distribution pour ces dernières. La force des produits de substitution est donc assez faible.
+		</p>
+		<p align="justify">
+		Quatrième point, la menace des nouveaux entrants. Cette dernière est assez forte étant donné que le marché des applications n’a presque aucune barrière d’entrée ainsi que peu de besoin en capitaux. Notre seule chance de contrer une si grande menace est de jouer sur la différenciation grâce aux technologies que nous souhaitons utiliser (géolocalisation et réalité augmentée).
+		</p>
+		<p align="justify">
+		Pour finir, il reste l’intensité de la concurrence. Sur le marché, il existe déjà des acteurs très imposants tels que Facebook et Twitter. Nous ne voulons pas entrer en compétition directe avec eux étant donné que nous ne souhaitons pas offrir exactement le même type de service. En bref, l’intensité de la concurrence peut être très forte mais par notre stratégie de différenciation nous souhaitons l’éviter. 
+		</p>
+		<p align="justify">
+		Pour conclure avec le modèle de Porter, nous pouvons dire que nous avons identifié de réelles menaces. Cependant, avec les différents éléments de notre stratégie nous devrions être capable de les surmonter. Une condition qui se retrouve dans beaucoup d’aspects est celle de la communauté : plus elle sera grande et dynamique, moins nous dépendent des autres. Chacune des menaces sera alors atténuée. Il est donc primordial d’inclure une importante campagne marketing dans notre stratégie.
+		</p>
+		<p align="justify">
+		Nous allons donc maintenant passer à un deuxième type d’analyse : l’analyse SWOT et le Cross-SWOT :
+		</p>
+		<b> Analyse SWOT </b>
+		<ol>
+			<li> <b> Forces : </b> Notre principale force est que notre contenu est totalement intégré à l’espace réel. Cela permet à chacun d’avoir son mot à dire dans notre communauté, mettant ainsi en avant l’expression personnelle.
+				Nous avons également un attrait écologique étant donné que nos espaces publicitaires apparaissent dans l’espace réel mais sont complètement dématérialisés. Cela ne nécessite donc pas de production de papier ni de louer des panneaux d’affichage publicitaires.</li>
+			<li> <b> Failblesses : </b> Comme d’autres réseaux sociaux, notre besoin principal est d’atteindre une taille critique de base d’utilisateurs pour devenir rentable. Comme notre communauté est un indicateur de notre valeur, nous ne serons réellement attractif que lorsque nous aurons réussi à attirer beaucoup d’utilisateurs. Cela nous amène donc à notre deuxième faiblesse : plus la communauté grandit, plus la sécurité devient un point préoccupant. Comptes et données sont des informations sensibles qu’il faut protéger en y mettant le prix, d’autant plus que de nouvelles normes de cyber-sécurité européennes ont rendu les contraintes plus fortes.</li>
+			<li> <b> Opportunités : </b> La réalité augmentée devient très actuelle (on estime aujourd’hui qu’elle a dépassé la courbe du “hype” et commence à arriver sur le plateau du marché global). Son usage a été radicalement répandu par Pokémon Go notamment. C’est donc une chance pour nous de nous développer et de toucher un maximum d’utilisateurs. Toujours d’un point de vue technologique, le déploiement du système GPS européen Galiléo permettra bientôt à tous de se localiser au mètre près. Nous n’avons aucun concurrent direct actuellement étant donné que nous sommes les seuls à coupler ces technologies pour promouvoir l’expression personnelle et le partage social. </li>
+			<li> <b> Menaces : </b> Comme il est facile de s’en rendre compte, le marché des applications mobiles est saturé : il est possible de trouver une application pour presque n’importe quel usage. D’un autre côté, les réseaux sociaux populaires ont déjà la main-mise sur une communauté très répandue et il pourrait s’avérer difficile d’en acquérir une partie conséquente. </li>
+		</ol>
+		
+		<b> Cross-SWOT </b>
+		<p align="justify">
+		Bien qu’une simple analyse SWOT ne suffise pas à guider une entreprise sur un plan d’action, elle permet de coupler ces différents facteurs (internes et externes) pour développer une stratégie à long-terme grâce à une analyse cross-SWOT. Voici les quatre stratégies à notre disposition pour contrer nos faiblesses et menaces :
+		</p>
+		<ol>
+			<li> <b>  FO (Forces - Opportunités) : Stratégie offensive </b> Étant donné que nous sommes les premiers sur le marché à allier RA et géolocalisation à un réseau social, il sera facile pour Rocket de s’attirer une bonne portion d’utilisateurs (early-adopters selon la théorie Crossing The Chasm de Moore). Le but étant d’utiliser Rocket en complément des réseaux sociaux actuels.   </li>
+			<li> <b> FM (Forces - Menaces) : Stratégie de confrontation </b> Bien que d’autres réseaux plus gros que nous existent, nous comptons jouer sur notre différenciation pour attirer certaines catégories d’utilisateurs. L’appétance pour les nouvelles technologies nous assurera un effet de viralité nécessaire à l’acquisition d’une large communauté. </li>
+			<li> <b> FO (Faiblesses - Opportunités) : Stratégie de renforcement </b> Là où d’autres ont la quantité, nous recherchons la qualité du contenu. Cela est possible grâce à la corrélation des messages avec leur emplacement et au système de vote des utilisateurs. Là où les publicités dématérialisées de Facebook et Twitter sont diffusées en masse sur le net, nous offrons un service différenciant : de la publicité ciblée, liée à l’espace réel et dématérialisée. </li>
+			<li> <b> FM (Faiblesses - Menaces) : Stratégie défensive </b> Utiliser les forces de ses opposants à son avantage est une stratégie très efficace. C’est pourquoi Rocket sera entièrement compatible avec Facebook, Google et Twitter pour la création d’un compte. Cela permettra également de récupérer les premières données pour le profil utilisateur. Enfin, les usages les plus courants seront intégrés à Rocket : hashtag, mention… </li>
+		</ol>
+		
+		
+		<h6 class="docs-header">Concurrents principaux</h6>
+		<p align="justify">
+		Comme précisé dans l’analyse de l’écosystème, nous n’avons pas de concurrent direct. Cependant, certains acteurs remplissent une partie de nos fonctions et il est important de les prendre en compte dans notre stratégie.
+		</p>
+		<b>Facebook & Google</b>
+		<p align="justify">
+		Aujourd’hui, Facebook est le réseau social le plus utilisé au monde et il agrandi continuellement son panel de services. Google représente également un obstacle sérieux puisqu’il comble les lacunes de Facebook en géolocalisation. Cependant, Facebook fonctionne avec des avis qui ne sont pas publics, tandis que Google n’a pas d’application de géolocalisation comme nous souhaitons le faire.
+		Aussi loin que nous puissions le prévoir, aucune de ces deux entreprises ne compte remplir la fonction précise que Rocket assure. Si l’utilisateur en fait le souhait explicite, il peut lire les avis Google, mais cela pour une seule enseigne à la fois.
+		</p>
+		
+		<b>TripAdvisor (et équivalents)</b>
+		<p align="justify">
+		Plus utilisé que les avis Google quand il s’agit de choisir un lieu où passer ses vacances, ou un endroit où manger dans un autre pays ou une autre ville. TripAdvisor se situe sur un marché que nous cherchons à conquérir. Sans réalité augmentée, TripAdvisor a tout de même des fonctionnalités permettant à ses utilisateurs d’obtenir la liste d’un certain type d’enseignes autour de leur position géographique (à l’échelle d’une ville entière uniquement). Il est parfois nécessaire d’ouvrir Google Maps, de trouver les restaurants autour de soi, puis d’ouvrir leur page internet pour lire les critiques de TripAdvisor. C’est ici que nous devons intervenir en brisant cette chaîne trop longue : en offrant une manière beaucoup plus simple et rapide de réaliser une recherche (en plus de nombreuses autres informations : événements, opinions, endroits insolites…).
+		</p>
+		
+		<b>Whoozer</b>
+		<p align="justify">
+		Il s’agit du seul réseau géolocalisé qui ait fonctionné plus d’un an mais il est encore en phase de beta-tests. Nous avons détecté d’autres réseaux similaires à Rocket mais sans utilisation de la R.A. De plus, la plupart de ces réseaux ne sont plus en fonctionnement ou n’ont pas atteint leur objectif de financement. Pour ce qui est de Whoozer, il s’agit d’une application exclusivement Parisienne, concentrée sur l’organisation participative de soirées (en ville, chez soi…) par l’utilisation de messages publics géolocalisés qui sont visibles à plusieurs kilomètres. Le périmètre peut-être réglé par l’utilisateur qui consulte les messages.
+		</p>
+		<p align="justify">
+		En réponse à l’analyse faite sur nos concurrents, nous avons défini plus précisément notre stratégie. Premièrement, nous choisissons de nous concentrer sur la réduction des intermédiaires entre les besoins des utilisateurs et leur satisfaction. Nous allons ainsi rendre les avis et conseils de chacun directement publics sur des zones géolocalisées. Nous choisissons en deuxième lieu de nous ouvrir au maximum à tous les usages que Rocket permet : nous concevons l’application de sorte à ce que les utilisateurs puissent facilement “prendre le contrôle” et inventer leurs propres usages. En ne limitant pas Rocket aux avis, ou à l’organisation de soirées, nous visons à produire un environnement social et agréable pour nos utilisateurs ainsi qu’une voie de communication rentable pour les commerces.
+		</p>
+		
+		
+		<h6 class="docs-header" id="produit">Notre produit</h6>
+		<p align="justify">
+		Il est maintenant temps d’aborder plus en détails l’offre que propose Rocket.
+		</p>
+		 <b> Valeurs et Mission </b>
+			<p align="justify">
+			Chez Rocket, nous pensons fermement que la communication entre les individus peut toujours être qualitativement améliorée. La technologie devrait être employée afin de transmettre au mieux la volonté, le savoir et les sentiments de chacun. À une époque où l’information est partout mais où le contenu de qualité est difficilement accessible, nous encourageons un partage intelligent et proche de l’autre.			
+			</p>
+			<p align="justify">
+			En résumé, la vision de Rocket s’articule autour de trois aspects :
+			</p>
+				<ul> 
+					<li> Se centrer autour du contenu de qualité et non autour de l’individu </li>
+					<li> Favoriser le transfert technologique vers une meilleure communication </li>
+					<li> Connecter les personnes situées dans la même zone géographique grâce à une communication locale </li>
+				</ul>
+			<p align="justify">
+			En bref chez Rocket, nous faisons nôtre la mission suivante : trouver le meilleur des technologies actuelles et l’appliquer à servir une meilleure communication, établir de nouveaux liens humains basés sur la proximité et le partage.
+			</p>
+			<br />
+			<b> Objectifs et Plan d’action </b> 
+				<ul>
+					<li> Objectifs chiffrés sur trois ans</li>
+						<ul>
+							<li> Atteindre 3 millions d’utilisateurs actifs </li>
+							<li> Compter 150 entreprises clientes </li>
+							<li> Être présent dans toute l’Europe </li>
+							<li> Être le leader des réseaux sociaux géolocalisés, en utilisant la réalité augmentée </li>
+						</ul>
+					<li> Objectifs chiffrés à long terme (de 5 à 10 ans)</li>
+						<ul>
+							<li> Devenir l’un des réseaux sociaux mobile les plus populaires, avec Snapchat ou Instagram </li>
+							<li> Être présent dans le monde </li>
+							<li> Créer un nouveau média pour le marketing, non-intrusif et proche de l’utilisateur </li>
+						</ul>
+				</ul>
+				<p align="justify">
+				Pour atteindre ces objectifs, nos stratégies de développement, financement et marketing s’agencent dans un planning strict et précis. Celui-ci est défini pour les deux ans à venir et démarre bien en amont du lancement de l’application. Nous en donnerons ici un aperçu général puis nous détaillerons notre plan d’action dans la suite du business plan.
+				</p>
+		
+		<b>Jalon 1 : Novembre 2018</b>
+		<p align="justify">
+		Jusqu’à Novembre 2018, l’entreprise ne sera pas encore créée. D’ici là, les objectifs sont multiples : développement de la version Alpha, recherche de partenaires privés et publics, recherche de financement… C’est finalement en Novembre 2018 que les statuts de l’entreprise seront déposés afin d’acquérir trois financements différents : un apport personnel de 10K€, un prêt bancaire de 20K€ et une levée de fond de 30K€. Cette date marque également le lancement de la version Alpha grâce à une campagne marketing de petite échelle avec pour objectif l’obtention de résultats de divers tests utilisateurs.
+		</p>
+		<b>Jalon 2 : Novembre 2019</b>
+		<p align="justify">
+		Un an sera dédié au développement complet de l’application en version Beta, à l’acquisition d’un nombre conséquent de partenaires dans toutes les grandes villes de France et au data-mining pour extraire un maximum de contenu pertinent. Il s’agira aussi d’un temps dédié à la recherche de financements supplémentaires pour arriver à une nouvelle levée de fond de 170K€ au début de l’année 2. La fin de l’année 1 verra démarrer une campagne marketing moyenne visant à lancer la beta ouverte pour acquérir une base d’utilisateurs et de clients de type early-adopters.
+		</p>
+		<b>Jalon 3 : Mars 2020</b>
+		<p align="justify">
+		Durant les six mois qui suivront le lancement de la Beta, le développement permettra d’ajuster l’application en cohérence avec les multiples retours utilisateurs et clients. La campagne de marketing principale commencera en parallèle pour suivre la stratégie de lancement. En Mars 2020, l’application sera publiée en tant que version finale (mises à jour exceptées) avec comme base de contenu tous les messages de la beta, les messages issus de la campagne de lancement et les publicités des contrats déjà obtenus.
+		</p>
+		<b>Par la suite</b>
+		<p align="justify">
+		Le break-even-point sera atteint 6 mois après le lancement de l’application (Septembre 2020) selon nos estimations. Le budget nous permet alors dès le lancement de recruter un développeur et un agent de communication afin d’atteindre notre deuxième cible client : les événements ponctuels souhaitant utiliser l’augmentation de réalité. Enfin, l’intégration de nouvelles fonctionnalités, la maintenance et la mise à jour de l’application seront poursuivies bien après le lancement en plus du renouvellement marketing.
+		</p>
+		
+		<h6 class="docs-header" id="plan">Plan et stratégie</h6>
+        <p align="justify">                                                            
+		Comme décrit plus haut, notre business model s’articule autour de trois types d’acteurs : les utilisateurs, les clients et les promoteurs. Le modèle d’affaire employé va différer en fonction de la catégorie de l’acteur afin de répondre au mieux à ses besoins.
+		</p>
+		
+		
+		<h6 class="docs-header"> Business Model Canvas </h6>
+		
+		
+		<b> Proposition de valeur </b>
+		<p align="justify">
+		À destination des utilisateurs, notre réseau social est livré sous la forme d’une application gratuite. Le contenu est corrélé à son emplacement géographique et la qualité est mise en avant grâce à un système de vote rapide. Les messages sont publics, ce qui permet à chacun de toucher tout le monde.
+		</p>
+		<p align="justify">
+		Le ciblage géographique est précis et touche directement les utilisateurs qui passent souvent devant une enseigne. En ajoutant à cela un ciblage par points d’intérêts, nous garantissons un marketing qualitatif basé sur le nombre de vue de nos clients. Les personnes qui verront la publicité sont celles qui y auront un intérêt.
+		</p>
+		<p align="justify">
+		Deux types d’offres par abonnement sont disponibles pour les clients.  La première est la plus complète : elle permet au commerçant d’obtenir une grande quantité de données sur la réaction à sa publicité. Pour ce faire, un code de promotion est généré. Ce code est une source de reporting détaillé (ticket moyen, achats, source de l’intention d’achat…). La deuxième offre permet aux entreprises de déposer des messages de promotion affichant leur logo pour un nombre de vue déterminé. Il est donc possible de savoir combien de fois le message a été lu. Dans les deux cas, l’entreprise cliente est guidée dans l’écriture du message afin de garantir un intérêt pour l’utilisateur, puis un nombre de vue visé est demandé : lorsque le nombre est atteint, le message doit être renouvelé (utilisation des crédits de l’abonnement) ou il finit par disparaître. Ce mode de tarification permet une transparence totale sur la performance des messages d’annonce, un message restant disponible autant de temps qu’il faut pour atteindre le nombre de vue souscrit en fonction des critères ciblés (âge, centres d’intérêt…).
+		</p>
+		<p align="justify">
+		Pour les promoteurs, c’est l’occasion de créer du contenu à caractère culturel, touristique et événementiel tout en profitant de la géolocalisation pour rendre le message le plus pertinent possible.  Ils auront la certitude que ces messages toucheront les bons utilisateurs et auront un contrôle total de la géolocalisation de leurs informations. De plus, nous proposons des services de création 3D pour ajouter du contenu atypique en R.A. aux simples messages.
+		</p>	
+		
+		<b> Segments clients </b>
+		<p align="justify">
+		Cette partie a déjà été détaillé précédemment. En résumé, nous avons trois coeurs de cible : utilisateurs, clients et promoteurs de contenu.
+		</p>
+		
+		<b> Relations clients </b>
+		<p align="justify">
+		Le site internet professionnel permettra aux clients et aux promoteurs d’acheter des espaces publicitaires et d’éditer du contenu de manière guidée, précise et transparente sur le résultat attendu (vues, temps d’affichage…). La réponse de notre service d’accompagnement sera très rapide, avant et après vente. Nous accompagnerons également les promoteurs souhaitant créer un contenu spécifique pour des événements.
+		</p>
+		
+		<b>Canaux de distribution </b>
+		<p align="justify">
+		L’application Rocket sera disponible gratuitement sur le PlayStore (Google) et sur l’AppStore (Apple). Un site internet (avec version mobile) de vitrine présentera Rocket et permettra de s’y inscrire avant de télécharger l’application. Un site internet professionnel sera dédié aux clients et promoteurs.
+		</p>
 
-	</body>
+		<b> Partenaires clés </b>
+		<p align="justify">
+		Plusieurs partenaires techniques nous permettront de répondre à certaines contraintes de production (développement de l’application, graphisme, édition de contenu 3D). De plus, certains de nos clients et promoteurs de contenu qui auront souscrit à notre offre avant le lancement de l’application (période de tests de la version beta) nous permettront de promouvoir le réseau en échange d’avantages sur les espaces publicitaires vendus.
+		</p>
+		
+        <b> Activités clés </b>
+		<p align="justify">
+		Notre activité s’inscrit dans quatre pôles principaux : un pôle technique dédié au développement et à la mise à jour de l’application et du réseau, un pôle marketing chargé de travailler au mieux la viralité de Rocket, un pôle création de contenu qui sera en lien étroit avec les promoteurs afin de rendre l’expérience Rocket la plus insolite possible et enfin un pôle démarchage dont l’objectif est de rechercher de nouveaux partenaires et clients.
+		</p>
+		
+		<b> Ressources clés </b>
+		<p align="justify">
+		Au-delà des ressources financières nécessaires au fonctionnement de l’entreprise, nos ressources principales sont le code de l’application (soumis aux droits d’auteurs), les bases de données stockées sur des serveurs ainsi que des ressources humaines dans les quatre pôles évoqués précédemment. On peut également considérer que la quantité d’utilisateurs de Rocket constitue une ressource qu’il nous faut acquérir afin d’être intéressant pour nos clients.
+		</p>
+
+		<b> Revenus </b>
+		<p align="justify">
+		Nous avons deux sources de revenus principales :
+		La vente d’espace publicitaires et la promotion de contenu constituent une première source, régulière et relativement distribuée sur le territoire. En deuxième lieu, des missions liées à des événements particuliers souhaitant intégrer des animations en R.A. géolocalisées nous apporterons une rémunération conséquente de manière plus ponctuelle.
+		</p>
+		
+        <b> Coûts </b>
+		<p align="justify">
+		Nos coûts sont directement liés à nos ressources et à nos activités : ressources humaines, développement de l’application, entretien des serveurs… Mais le poste de dépense le plus important reste les campagnes de marketing pré et post lancement, qui sont nécessaires à la viralité de Rocket et donc à son intérêt pour les clients et les promoteurs.
+		</p>
+		
+		
+		<h6 class="docs-header"> Développement du produit </h6>
+		<b> Phases de développement </b>
+		<p align="justify">
+		Trois versions de l’application Rocket verront le jour au cours des deux ans à venir : Alpha, Beta et Release. Cela permettra de mettre en oeuvre un processus d’amélioration continue durant toute la phase de développement et de la poursuivre après le lancement. Chaque pré-version (Alpha et Beta) s’accompagne d’une période de tests.
+		</p>
+		<p align="justify">
+		La pré-version Alpha, preuve de concept suffisamment avancée pour être testée par un large panel d’utilisateurs, de clients et de promoteurs situés sur une seule zone géographique précise.
+		</p>
+		
+		<table class="u-full-width">
+		  <thead>
+			<tr>
+			  <th></th>
+			  <th></th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<tr>
+			  <td>Phase de développement</td>
+			  <td>Mars 2018 - Août 2018 (6 mois)</td>
+			</tr>
+			<tr>
+			  <td>Phase de tests</td>
+			  <td>Septembre 2018 - Novembre 2018 (3 mois)</td>
+			</tr>
+			<tr>
+			  <td>Zone de déploiement</td>
+			  <td>Rennes</td>
+			</tr>
+			<tr>
+			  <td>Objectifs </td>
+			  <td>Tester la réponse et l’adhésion du grand public au concept Rocket <br>
+                Détecter les éventuels verrous culturels et psychologiques <br>
+                Tester la technologie sur un réseau grandeur nature</td>
+			</tr>
+		  </tbody>
+		</table>
+		<p align="justify">
+		La pré-version Beta, application très proche du résultat final, pouvant être testée à l’échelle nationale par les early adopters (selon la théorie Crossing The Chasm de Moore).
+		</p>
+		
+		<table class="u-full-width">
+		  <thead>
+			<tr>
+			  <th></th>
+			  <th></th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<tr>
+			  <td>Phase de développement</td>
+			  <td>Septembre 2018 - Août 2019 (1 an)</td>
+			</tr>
+			<tr>
+			  <td>Phase de tests</td>
+			  <td>Septembre 2019 - Février 2020 (6 mois)</td>
+			</tr>
+			<tr>
+			  <td>Zone de déploiement</td>
+			  <td>Grandes villes de France</td>
+			</tr>
+			<tr>
+			  <td>Objectifs </td>
+			  <td>Atteindre les early adopters pour préparer l’adhésion à la Release <br>
+                Acquérir des pré-contrats auprès de clients et promoteurs <br>
+                Tester l’application finale et faire tous les ajustements nécessaires <br>
+                Générer une base de contenu pour la Release</td>
+			</tr>
+		  </tbody>
+		</table>		
+		
+		<p align="justify">
+		La version finale, la Release, terminée dans son premier stade technologique. Elle sera amenée à évoluer dans les années qui suivront pour intégrer de nouvelles technologies (Galiléo, nouvelles technologies R.A., etc.).		
+		</p>
+		
+		<table class="u-full-width">
+		  <thead>
+			<tr>
+			  <th></th>
+			  <th></th>
+			</tr>
+		  </thead>
+		  <tbody>
+			<tr>
+			  <td>Phase de développement</td>
+			  <td>Septembre 2018 - Août 2019 (1 an)</td>
+			</tr>
+			<tr>
+			  <td>Phase de tests</td>
+			  <td>Mars 2020</td>
+			</tr>
+			<tr>
+			  <td>Zone de déploiement</td>
+			  <td>France</td>
+			</tr>
+		  </tbody>
+		</table>
+		
+		<b> Technologie </b>
+		<p align="justify">
+		Plusieurs blocs technologiques constituent l’application Rocket et seront conçus au fur et à mesure des différentes versions de l’application. Certains d’entre eux sont maîtrisés depuis longtemps (GPS, interface mobile…) et d’autres nécessitent des recherches et une optimisation poussée (réalité augmentée). Afin de parvenir à un résultat ergonome et performant, nous avons réalisé un état des lieux dans tous ces domaines et avons conçu une manière de mettre en commun les différents capteurs du téléphone mobile.
+		</p>
+		<p align="justify">
+		Puisque Rocket est une application à usage situationnel et ponctuel, elle ne doit pas priver l’utilisateur des usages principaux de son terminal, par exemple à cause d’un usage trop intensif de la batterie. Avec la technologie de R.A., l’utilisation de la batterie constitue l’un des deux verrous technologiques que nous nous efforçons de solutionner. À cela s’ajoute un intérêt particulier à l’ergonomie : l’intuitivité de l’application.
+		</p>
+		
+		<ul> 
+			<li> De par les contraintes de précision du GPS (env. 10 mètres), les messages de Rocket seront visibles au loin et approximativement placés dans l’environnement. Des informations textuelles et/ou photographiques seront renseignées au désir de l’utilisateur pour permettre de comprendre à quel objet précis de l’environnement le message fait référence </li>
+			<li> L’utilisation des différentes fonctionnalités énergivores du téléphone se fera de manière ponctuelle et séquencée. L’objectif technique est de limiter au maximum l’utilisation des différents outils tout en étant capable de capter des informations suffisantes pour afficher les messages de l’utilisateur. L’usage de l’application étant principalement statique (la lecture implique une pause dans le déplacement), il suffit de capter une seule fois la position de l’utilisateur. Il faudra uniquement la réactualiser lorsque celui-ci commencera à se déplacer suffisamment </li>
+			<li> Les interfaces R.A. et l’UI classique ont été travaillées selon les concepts de l’UX design afin de garantir une utilisation fluide et intuitive, limitant le nombre de clics et la charge mentale demandée à l’utilisateur. Le chargement des messages et des objets 3D se fera en parallèle de l’usage de l’application afin de limiter au maximum les temps de chargement bloquants </li>
+		</ul>
+		
+		<p align="justify">
+		Plusieurs pistes d’amélioration de la technologie sont déjà à l’étude dans le but de répondre plus précisément à ces différents verrous. Notamment en ce qui concerne le placement précis des messages, l’utilisation du réseau GPS européen Galiléo dont le déploiement doit s’achever en 2020 (date de lancement de l’application) et qui compte déjà plusieurs millions d’utilisateurs. Il nous est également possible de croiser les données récoltées via la caméra R.A. et les données GPS pour réaliser un mapping intelligent capable de positionner des messages sur les façades des bâtiments de manière très précise.
+		</p>
+		
+		<b> Compétences requises </b>
+		<p align="justify">
+		Au sein de l’équipe Rocket actuelle, les compétences sont réparties de manière très complémentaire. Pour en compléter le pannel, deux stagiaires seront recrutés en Mars 2019, puis deux collaborateurs en CDI/CDD en Septembre 2019. Les principales compétences à mettre en oeuvre sont les suivantes :
+		</p>
+		
+		<ul>
+			<li> Management/RH : organisation du travail de l’équipe, recrutement, recherche de financement </li>
+			<li> Marketing : recherche de partenaires, campagnes d’alpha, de beta et de version finale </li>
+			<li> Gestion administrative : comptabilité, expertise juridique </li>
+			<br>
+			<li> Développement mobile : application, GPS, algorithmes R.A </li>
+			<li> Développement web : réseau, paiements en ligne sécurisés </li>
+			<li> Machine learning : détection des langages, ciblage par centres d’intérêts </li>
+			<li> Data mining : extraction de points d’intérêt géographiques depuis internet et bases de données </li>
+			<li> UX Design : interfaces de l’application, interfaces de gestion web (clients et promoteurs) </li>
+			<li> Graphisme et animation : interfaces, objets 3D, animations, marketing </li>
+		</ul>
+		<p align="justify">
+		À ces compétences techniques s’ajoutent des compétences de créativité, une haute motivation, une volonté de travailler dur et une forte adhésion aux valeurs de Rocket. C’est pourquoi le recrutement de collaborateurs se fera avec beaucoup d’attention et avec la nécessité de compléter les compétences de l’équipe.
+		</p>
+		
+		<b> Partenaires techniques </b>
+		<p align="justify">
+		Durant la phase de développement, nous mettrons en oeuvre trois types de sous-traitance grâce à nos partenaires techniques. Cela nous permettra de profiter de l’expérience de partenaires sur le marché depuis de nombreuses années et nous pourrons ainsi nous concentrer sur des tâches propres à Rocket. Le budget sur la première année post-alpha est de 50 000€ pour les partenaires techniques, puis de 150 000€ sur la deuxième année.
+		</p>
+		<p align="justify">
+		Nous ferons fréquemment appel à des studios de graphisme et de design afin de créer un univers visuel sympathique et des interfaces intuitives. Nos compétences nous permettront de subvenir à nos besoins jusqu’à la version Alpha, mais passé ce stade, il faudra faire appel à des professionnels du métier afin d’obtenir un résultat au plus proche de nos ambitions.
+		</p>
+		<p align="justify">
+		Le développement de l’application et du site internet professionnel (vente d’espaces publicitaires et édition de contenu géolocalisé en R.A.) sera en partie sous-traité. Nous souhaitons garder la main sur l’assemblage des blocs fonctionnels de l’ensemble des produits Rocket, mais certaines fonctionnalités gagneront beaucoup à être développées par des sociétés spécialisées. De même que pour le graphisme, nous avons les compétences au sein de l’équipe pour atteindre le stade de la version Alpha sans faire appel à des acteurs extérieurs.
+		</p>
+		<p align="justify">
+		Enfin, l’édition de contenu d’intérêt constitue un point particulier. Rocket a besoin d’une grande quantité de contenu géolocalisé de qualité pour fonctionner d’entrée de jeu. C’est pourquoi la place des promoteurs est importante dans notre modèle d’affaire. Cependant, la taille de ces derniers et leur capacité à produire du contenu est très variable. Nous avons donc une large plage de possibilités, allant de l’édition de contenu gratuite (petite association souhaitant diffuser des informations dans sa zone géographique) jusqu’à l’édition de contenu de masse en continu (office de tourisme, mairies…). En fonction des options souscrites, une partie du contenu pourra être d’un type différent des messages habituels : objets et animations 3D, oeuvres d’art… Rocket proposera donc un service d’édition de contenu spécialisé qui sera en grande partie assuré par nos partenaires technico-artistiques.
+		</p>
+		<p align="justify">
+		Au final, le but de Rocket est tout de même de devenir indépendant assez rapidement. À terme, les partenaires techniques seront intégrés à l’équipe de Rocket et il n’y aura plus besoin de passer par des fournisseurs.
+		</p>
+        <b> Cyber-sécurité </b>
+
+		<p align="justify">
+		Un sujet très important pour Rocket va concerner la cyber-sécurité. En effet, aujourd’hui la protection des données devient un enjeu majeur pour notre société. Tout le monde peut être menacé, que ce soit les individus, les institutions publiques ou les entreprises. Rocket va donc devoir prévoir un budget conséquent pour sécuriser les données de ses utilisateurs. Ce budget risque d’ailleurs de croître de façon exponentielle au cours des années à venir.
+		</p>
+		<p align="justify">
+		Cet aspect sera à la fois pris en charge par l’équipe technique et un consultant juridique nous assurant d’être dans nos droits vis-à-vis de la CNIL et de la gestion des données.
+		</p>
+		
+		<h6 class="docs-header"> Stratégie Marketing </h6>
+		
+		<b> Cibles </b>
+		<p align="justify">
+		Notre réseau social permet aux utilisateurs de découvrir ou redécouvrir une ville sous différents aspects. Parmis les différentes possibilités nous avons choisi de nous concentrer sur trois axes principaux : le tourisme, la culture et les commerces de proximités.
+		</p>
+		<p align="justify">
+		Pour la partie culture nous avons choisi de travailler avec des acteurs locaux tels que les mairies et offices du tourisme. Le but étant de proposer un contenu riche en visites et en informations utiles que les utilisateurs n’auraient pas pu avoir sans l'utilisation de l’application.
+		</p>
+		<p align="justify">
+		Concernant la culture, nous souhaitons travailler avec des acteurs comme les musées, théâtre, cinémas… Ici nous voulons re-dynamiser l’attrait de la culture pour notre public. C’est pourquoi nous proposons à ces infrastructures de publier du contenu sur notre application.
+		</p>
+		<p align="justify">
+		Les commerces de proximités seront aussi des axes importants de notre projet. En effet notre application permet aux utilisateurs de recommander les bars, restaurants… qu’ils ont appréciés en laissant un message devant l’établissement. Mais ce sont aussi ces mêmes établissements qui pourront poster des messages à but commercial pour promouvoir leur enseigne auprès d’utilisateurs ciblés.
+		</p>
+		<p align="justify">
+		Ces choix ont été fait dans le but d’attirer une première communauté autour de la découverte d’une ville. 
+		</p>
+		
+		<b> Cible d’utilisateurs primaire :</b>
+		<ul>
+			<li> Jeunes actifs de 20 à 30 ans, hommes et femmes. Capacité à se déplacer en France à des fins touristiques. Tendance  sortir en ville en journée et/ou soirée </li>
+		</ul>
+		
+		<b> Cible de clients </b>
+		<ul>
+			<li> Commerçants de proximités voulant cibler au niveau local en postant autour de leur établissements (bars, restaurant, magasins en tout genre) </li>
+			<li> Chaine de commerces souhaitant publier des offres promotionnelles localisées dans plusieurs de leur magasins (Big Fernand, Printemps, H&M, Nicolas…)  </li>
+
+		</ul>
+		
+		<b> Cible de prescripteurs </b>
+		<ul>
+			<li> Nous avons deux souhaits pour nos prescripteurs. Tout d’abord qu’il postent du contenu intéressant pour les utilisateurs. Mais surtout qu’ils nous permettent de nous faire connaitre auprès de leur communauté étant donné que nous souhaitons visé le “buzz” pour notre lancement. Nous visons donc des infrastructures comme les offices de tourisme pour proposer des sorties ou visites culturelles, des mairies pour diffuser du contenu utile pour les citoyens </li>
+
+		</ul>
+		
+		<b>  Zone géographique </b>
+		<ul>
+			<li> Nous allons proposer une période de early acces dans le but de faire un buzz avant la sortie de notre application. L’accès sera donc restreint à un ou plusieurs endroits touristique par ville (selon la taille) </li>
+			<li> Une fois notre application lancée, elle sera utilisable partout en France métropolitaine </li>
+
+		</ul>
+		
+		
+		<b> Stratégie de lancement </b>
+		<p align="justify">
+		Nous savons qu’en parallèle du développement de l’application, nous allons devoir trouver des partenaires commerciaux (marques célèbres, ex: Heineken) qui vont promouvoir l’application avant même sa sortie. Le but étant d’obtenir une communauté précoce pour assurer la viralité du réseau, condition sine qua non à son succès.
+		</p>
+		<p align="justify">
+		Contrairement aux multiples applications concurrentes travaillant sur les messages géolocalisés (la R.A. étant peu utilisée de manière générale), nous avons pour objectif clairement énoncé depuis le départ de faire une percée exponentielle sur le marché. Pour ce faire, nous comptons associer plusieurs techniques marketing afin de préparer le marché à l’arrivée de notre application en Mars 2020. Le but étant que comme pour Pokémon Go, notre application soit attendu impatiemment par nos futurs utilisateurs. 
+		</p>
+		<p align="justify">
+		Une suite d’événements marketing très précis vont avoir lieu en amont du lancement. Nous comptons énormément sur nos clients partenaires (ceux qui investirons avant même le lancement de l’application) pour nous aider dans notre démarche. Nous avons déjà pensé à plusieurs types d’événements : street marketing, vidéos promotionnelles en partenariats avec nos clients, jeux concours, etc. 
+		</p>
+		<p align="justify">
+		Un mois avant la date de sortie, la version beta étant déjà en marche depuis quelques mois, nous lancerons un dispositif ludique via un site internet. Celui-ci nous permettra de produire du contenu avant même d’avoir la version finale de l’application. Gratuitement et sans inscription (connection avec son profil facebook), les utilisateurs pourront placer un message sur une grande carte de la France, invisible pour le moment. Cela aura pour effet d’augmenter légèrement le carburant d’une fusée fictive, emblème de notre réseau. Le jour du lancement, à la fin du compte à rebours, la fusée décollera. Dès le début, tous les messages postés sur le site seront visibles à leur emplacement respectif en plus des messages qui auront persisté depuis la version beta. En fonction de leur participation, les utilisateurs seront récompensés sur le côté ludique de l’application (badges, scores, persistence et mise en avant des messages…).
+		</p>
+		<p align="justify">
+		L’objectif est de jouer sur la carte de l’événement exceptionnel. La notion de fusée, la préparation en amont et l’aspect participatif ont ici pour rôle de renforcer le sentiment d’attente chez le futur utilisateur afin de l’amener à télécharger l’application une fois celle-ci disponible : il aura déjà été familiarisé à celle-ci.
+		</p>
+		<p align="justify">
+		L’implémentation de la réalité augmentée a pour but de générer d’autant plus d’engouement dans cette stratégie de lancement. En profitant de la vague PokémonGo qui aura sû conquérir un grand nombre de personnes et en agissant avant les grands réseaux que sont Facebook et Twitter, nous voulons profiter de cette fenêtre de tir pour nous lancer et imposer notre produit.
+		</p>
+		
+		<h6 class="docs-header"> Stratégie de financement </h6>		
+		<p align="justify">
+		En ce qui concerne la stratégie de financement, Rocket a prévu plusieurs étapes pour les 3 ans qui arrivent :
+		</p>
+		<p align="justify">
+		À partir de mars 2018, une recherche active d’investisseurs potentiels et de partenaires va avoir lieu. En effet, en novembre 2018 nous souhaitons déposer les statuts de l’entreprise pour lancer le business. Avant de lancer Rocket, nous voulons donc savoir si des investisseurs et des partenaires ont la volonté de se lancer dans l’aventure. Le but est de pouvoir démarrer l’activité avec un budget de 60 000€ afin de développer une première version de l’application (Beta). 20 000€ viendraient d’un prêt contracté auprès d’une banque (ex: la BPI). 10 000€ au total viendraient d’un apport personnel de chacun des membres de l’équipe pour nous engager sur le projet. Et pour finir, 30 000€ doivent venir soit de partenaires commerciaux, soit d’une levée de fond classique. Par partenaires commerciaux, nous entendons futurs clients qui croient au projet et qui souhaitent nous aider à le lancer. En échange de l’argent donné par ces partenaires, nous leur fournissons du contenu gratuit durant les premières années. Par levée de fond classique, nous entendons, des Business Angels qui souhaiteraient investir dans notre société.
+		À partir d’août 2019, une deuxième levée de fond aura lieu afin de financer l’application finale. Une fois encore nous devrons obtenir le financement auprès d’investisseurs classiques ou de partenaires commerciaux. Tout devra être prêt pour le lancement de l’application en mars 2020.
+		À partir de 2019, les premiers revenus auront lieu, à hauteur de 90 000€ durant la première année, puis 500 000€ durant la seconde. 
+		</p>
+		
+		<h6 class="docs-header"> Analyse financière </h6>
+		<b>Bilan des 3 premières années </b>
+		<p align="justify">
+		Durant la première année (à partir de novembre 2018), nous avons prévu de passer par une agence de développement pour créer une Beta de notre application. Une version alpha sur laquelle s’appuyer aura déjà été conçu d’ici là. Pour créer cette Beta test, nous avons prévu un budget de 50 000€ sur les 60 000€ que nous devrions avoir réussi à obtenir à ce moment-là. Cf. Bilan de l’année 1. 
+		</p>
+		<p align="justify">
+		Au cours de la deuxième année, la version finale de notre application doit être réalisée. Nous avons donc besoin de capitaux et allons avoir recours à une deuxième levée de fonds de 170 000€. 150 000€ vont être consacrés au développement de l’application (toujours en passant par une agence de développement). Cf. Bilan de l’année 2. 
+		</p>
+		<p align="justify">
+		Pour finir, lors de la troisième année, nous n’aurons plus besoin de levée de fonds étant donné que nous commencerons à être rentable. Nous rembourserons une partie notre prêt (10 000€). L’argent gagné permettra dans un premier temps de rembourser les pertes des 2 années précédentes, puis nous pourrons penser à investir dans des projets de plus grande ampleur. Cf. Bilan de l’année 3.
+		</p>
+		
+		<b> Cash flow </b> 
+		<p align="justify">
+		Au cours de la première année, nous ne produirons pas encore de service car l’application sera en cours de création. Afin de palier à ce manque, nous ne serons pas rémunérés. Nos dépenses se réduiront à la Beta et à quelques frais de recherches et d’analyse du marché. Nous finirons l’année avec une perte de 10 000€. Cf. Compte de résultats année 1.
+		</p>
+		<p align="justify">
+		Puis, la deuxième année, nous allons commencer à vendre de la publicité sur notre réseau ; nous prévoyons un chiffre d’affaire de 90 000€. Nous aurons besoin de rendre notre application virale et pour cela, tout passe par la communication, nous allons donc allouer un large budget à cette dépense. Durant cette année, nous avons prévu de participer à des concours de start-up afin de gagner jusqu’à 30 000€. Nous aurons très peu de frais de production étant donné que nous produisons un service et non un produit. Ces derniers seront composés uniquement des frais liés aux serveurs et à la cyber-sécurité. Durant la deuxième année, nous avons décidé de commencer à rémunérer les créateurs de Rocket. Nous aurons toujours des dépenses en R&D ainsi qu’un budget à prévoir pour payer les taxes. Nous finirons l’année avec une perte de 64 200 €. Cf. Compte de résultat année 2.
+		</p>
+		<p align="justify">
+		Pour finir, lors de la troisième année, les ventes doivent atteindre 500 000€. Nos coûts de production seront toujours très faibles et nous n’aurons plus autant besoin de publicité donc nous pourrons diminuer le budget. À partir de ce moment, nous devrions être capable d’engager d’autres salariés, nos dépenses opérationnelles vont donc augmenter.  Pour la première nous allons avoir un revenu net positif de 203 500€. Cf. Compte de résultat année 3.
+		</p>
+		<b>Détail sur nos ventes </b> 
+		<p align="justify">
+		Our business value is the view made on our clients ads. We intend to have a sell by view policy. Each company willing to work with us will be able to set several messages at certain location and a number of view needed for a certain type of prospect (according to their age, gender, interest and paths).
+		</p>
+		<p align="justify">
+		Price for premium messages: 150€ for 1000 views. <br>
+		Price for standard messages: 100€ for 1000 views.
+		</p>
+		
+		
+		
+		
+				
+		
+		
+		
+		<!-- TIMELINE -->
+<section class="cd-horizontal-timeline" id="timeline">
+	<div class="timeline">
+		<div class="events-wrapper">
+			<div class="events">
+				<ol class="timeline-list">
+					<li><a href="#0" data-date="01/03/2018" class="selected">01 Mars</a></li>
+					<li><a href="#0" data-date="01/09/2018">01 Sept</a></li>
+					<li><a href="#0" data-date="01/03/2019">01 Mars</a></li>
+					<li><a href="#0" data-date="01/09/2019">01 Sept</a></li>
+					<li><a href="#0" data-date="01/01/2020">01 Janv</a></li>
+					<li><a href="#0" data-date="01/02/2020">01 Févr</a></li>
+					<li><a href="#0" data-date="01/03/2020">01 Mars</a></li>
+					<li><a href="#0" data-date="01/09/2020">01 Sept</a></li>
+				</ol>
+
+				<span class="filling-line" aria-hidden="true"></span>
+			</div> <!-- .events -->
+		</div> <!-- .events-wrapper -->
+			
+		<ul class="cd-timeline-navigation timeline-list">
+			<li><a href="#0" class="prev inactive">Prev</a></li>
+			<li><a href="#0" class="next">Next</a></li>
+		</ul> <!-- .cd-timeline-navigation -->
+	</div> <!-- .timeline -->
+
+	<div class="events-content">
+		<ol class="timeline-list">
+			<li class="selected" data-date="01/03/2018">
+				<em>01 Mars 2018</em>
+				<h6>Finance</h6>
+				<p> Recherche d'investisseurs</p>
+				<h6>Technique</h6>
+				<p> Développement de la version Alpha</p>
+				<h6>Marketing</h6>
+				<p> Recherche de partenaires</p>
+				<h6>Ressources humaines</h6>
+				<p> 5 fondateurs, non rénumérés</p>
+			</li>
+
+			<li data-date="01/09/2018">
+				<em>01 Septembre 2018</em>
+				<h6>Finance</h6>
+				<p> Prêt : 20 000€, levée de fond : 30 000€, apport personnel : 10 000€</p>
+				<h6>Technique</h6>
+				<p> Développement de la version Beta, Data Mining</p>
+				<h6>Marketing</h6>
+				<p> Signature de contrats et réalisation de contenu par nos partenaires </p>
+				<h6>Ressources humaines</h6>
+				<p> 5 fondateurs, non rénumérés</p>
+			</li>
+			
+			<li data-date="01/03/2019">
+				<em>01 Mars 2019</em>
+				<h6>Finance</h6>
+				<p> Recherche d'investisseurs</p>
+				<h6>Technique</h6>
+				<p> Développement de la version Beta, Data Mining</p>
+				<h6>Marketing</h6>
+				<p> Signature de contrats et réalisation de contenu par nos partenaires </p>
+				<h6>Ressources humaines</h6>
+				<p> 5 fondateurs, non rénumérés</p>
+			</li>
+
+			<li data-date="01/09/2019">
+				<em>01 Septembre 2019</em>
+				<h4>Finance</h6>
+				<p> Levée de fonds : 170 000€</p>
+				<h6>Technique</h6>
+				<p> Beta test ouverte</p>
+				<h6>Marketing</h6>
+				<p> Contrats publicitaires</p>
+				<h6>Ressources humaines</h6>
+				<p> 5 fondateurs rénumérés et recrutement de deux personnes supplémentaires, recrutement de stagiaires</p>
+			</li>
+			
+			<li data-date="01/01/2020">
+				<em>01 Janvier 2020</em>
+				<h6>Marketing</h6>
+				<p> Mise en place d'une stratégie plus détaillée </p>
+			</li>
+			
+			<li data-date="01/02/2020">
+				<em>01 Février 2020</em>
+				<h6>Technique</h6>
+				<p> Ouverture du site web pour le lancement de Rocket</p>
+			</li>			
+				
+			<li data-date="01/03/2020">
+				<em>01 Mars 2020</em>
+				<h6>Finance</h6>
+				<p> Ventes 90 000</p>
+				<h6>Technique</h6>
+				<p> Maintenance et mises à jour</p>
+				<h6>Marketing</h6>
+				<p> Evénements particuliers</p>
+				<h6>Ressources humaines</h6>
+				<p> 5 fondateurs rénumérés et recrutement de deux personnes supplémentaires, recrutement de stagiaires</p>
+			</li>
+
+			<li data-date="01/09/2020">
+				<em>01 Septembre 2020</em>
+				<h6>Finance</h6>
+				<p> 5 fondateurs rénumérés et recrutement de deux personnes supplémentaires, recrutement de stagiaires</p>
+				<h6>Technique</h6>
+				<p> Maintenance et mises à jour</p>
+				<h6>Marcketing</h6>
+				<p> Evénements particuliers</p>
+				<h6>Ressources humaines</h6>
+				<p> 5 fondateurs rénumérés et recrutement de deux personnes supplémentaires, recrutement de stagiaires</p>
+			</li>
+			
+		</ol>
+	</div> <!-- .events-content -->
+</section>
+
+		<h6 class="docs-header" id="conclusion">Conclusion</h6>
+		<p align="justify">
+		En résumé de ce document, Rocket est une ambition que l’équipe s’applique à concrétiser. Ouvrir un nouveau réseau social à notre époque est possible et nécessite une volonté et des convictions fortes, ainsi qu’une stratégie rodée : utiliser les forces de nos opposants à notre avantage, capter les signaux et les opportunités pour profiter du courant, innover pour apporter une nouvelle réponse à des besoins bien présents.
+		</p>
+		<p align="justify">
+		Rocket vise à ce que le monde virtuel profite à l’espace réel, à ce que plus de personnes déjà proches sans le savoir puissent se rencontrer et échanger.
+		</p>
+		<p align="justify">
+		L’entreprise est conséquente et nous n’atteindrons nos objectifs que si Rocket profite dès le départ des ressources nécessaires, à la fois financières et humaines. Ce n’est pas sans raison que le symbole de Rocket est une fusée : son but est d’aller loin, et il lui faut pour cela tout le carburant et l’expertise nécessaire !
+		</p>
+		<center>
+		Nous vous invitons à nous contacter à travers le formulaire ci-dessous pour toute prise de renseignement ou de rendez-vous :
+		</center>
+		
+		<a href="#titre" id="topButton"> <i class="fas fa-arrow-circle-up fa-3x"></i> </a>
+		
+		<br>
+		<!-- FORMULAIRE DE CONTACTE -->
+		<h6 class="docs-header" id="formulaire">Contactez nous</h6>
+		<form>
+		  <div class="row">
+			<div class="six columns">
+			  <label for="exampleEmailInput">Your email</label>
+			  <input class="u-full-width" placeholder="test@mailbox.com" id="exampleEmailInput" type="email"/>
+			</div>
+			<div class="six columns">
+			  <label for="exampleRecipientInput">Reason for contacting</label>
+			  <select class="u-full-width" id="exampleRecipientInput">
+				<option value="Option 1">Questions</option>
+				<option value="Option 3">Remarques</option>
+				<option value="Option 2">Demande d'information</option>
+				<option value="Option 3">Demande de partenariat</option>
+				<option value="Option 3">Autres</option>
+			  </select>
+			</div>
+		  </div>
+		  <label for="exampleMessage">Message</label>
+		  <div class="row">
+		  <textarea class="eleven columns" placeholder="Votre message" id="exampleMessage"></textarea> <br/>
+		  </div>
+		  <input class="button-primary" value="Submit" type="submit">
+		</form>
+		
+		
+    </div>
+
+  </div>
+	
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
 </html>
