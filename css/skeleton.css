@@ -148,7 +148,8 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
   h3 { font-size: 3.6rem; }
   h4 { font-size: 3.0rem; }
   h5 { font-size: 2.4rem; }
-  h6 { font-size: 1.5rem; }
+  h6 { font-size: 1.5rem; 
+		color: #44BCB2;}
 }
 
 p {
@@ -158,10 +159,13 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #44BCB2; }
 a:hover {
-  color: #0FA0CE; }
-
+  color: #A0D0A8; }
+.icones{
+	margin-left: 100px;
+	margin-right: 100px;
+}
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -206,8 +210,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  background-color: #44BCB2;
+  border-color: #A0D0A8; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -219,8 +223,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  background-color: #A0D0A8;
+  border-color: #A0D0A8; }
 
 
 /* Forms
@@ -322,7 +326,7 @@ pre > code {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 th,
 td {
-  padding: 12px 15px;
+  padding: 10px 10px;
   text-align: left;
   border-bottom: 1px solid #E1E1E1; }
 th:first-child,
