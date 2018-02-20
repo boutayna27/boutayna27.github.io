@@ -1,7 +1,29 @@
 .title{
 	font-size: 7rem;
+	text-transform: uppercase;
+	letter-spacing: .90rem;
 }
 
+
+blockquote {
+    font-family:"Market Felt";
+    font-style:italic;
+    background:url(right-quote.gif) no-repeat right bottom;
+    text-indent:-25px;
+    padding-right:20px;
+    padding-left:20px;
+    color:brown;
+    text-align:justify;
+	font-size:1.2em;
+	color: #000;
+}
+
+blockquote:first-letter {
+    background:url(left-quote.gif) no-repeat left top;
+    padding-left:20px;
+    font-size:1.2em;
+	color: #000;
+}
 
 .subSubTitle{
   text-transform: uppercase;
