@@ -545,19 +545,19 @@
 			  </thead>
 			  <tbody>
 				<tr>
-				  <td>Phase de développement</td>
+				  <td><b>Phase de développement</b></td>
 				  <td>Mars 2018 - Août 2018 (6 mois)</td>
 				</tr>
 				<tr>
-				  <td>Phase de tests</td>
+				  <td><b>Phase de tests</b></td>
 				  <td>Septembre 2018 - Novembre 2018 (3 mois)</td>
 				</tr>
 				<tr>
-				  <td>Zone de déploiement</td>
+				  <td><b>Zone de déploiement</b></td>
 				  <td>Rennes</td>
 				</tr>
 				<tr>
-				  <td>Objectifs </td>
+				  <td><b>Objectifs</b></td>
 				  <td>Tester la réponse et l’adhésion du grand public au concept Rocket <br>
 					Détecter les éventuels verrous culturels et psychologiques <br>
 					Tester la technologie sur un réseau grandeur nature</td>
@@ -579,19 +579,19 @@
 			  </thead>
 			  <tbody>
 				<tr>
-				  <td>Phase de développement</td>
+				  <td><b>Phase de développement</b></td>
 				  <td>Septembre 2018 - Août 2019 (1 an)</td>
 				</tr>
 				<tr>
-				  <td>Phase de tests</td>
+				  <td><b>Phase de tests</b></td>
 				  <td>Septembre 2019 - Février 2020 (6 mois)</td>
 				</tr>
 				<tr>
-				  <td>Zone de déploiement</td>
+				  <td><b>Zone de déploiement</b></td>
 				  <td>Grandes villes de France</td>
 				</tr>
 				<tr>
-				  <td>Objectifs </td>
+				  <td><b>Objectifs</b></td>
 				  <td>Atteindre les early adopters pour préparer l’adhésion à la <b>Release</b> <br>
 					Acquérir des pré-contrats auprès de clients et promoteurs <br>
 					Tester l’application finale et faire tous les ajustements nécessaires <br>
@@ -614,15 +614,15 @@
 			  </thead>
 			  <tbody>
 				<tr>
-				  <td>Phase de développement</td>
+				  <td><b>Phase de développement</b></td>
 				  <td>Septembre 2018 - Août 2019 (1 an)</td>
 				</tr>
 				<tr>
-				  <td>Phase de tests</td>
+				  <td><b>Phase de tests</b></td>
 				  <td>Mars 2020</td>
 				</tr>
 				<tr>
-				  <td>Zone de déploiement</td>
+				  <td><b>Zone de déploiement</b></td>
 				  <td>France</td>
 				</tr>
 			  </tbody>
@@ -856,28 +856,28 @@
 		  </thead>
 		  <tbody>
 			<tr>
-			  <td>Offre 1</td>
+			  <td><b>Offre 1</b></td>
 			  <td>16</td>
 			  <td>300</td>
 			  <td>4 800</td>
 			  <td>8%</td>
 			</tr>
 			<tr>
-			  <td>Offre 2</td>
+			  <td><b>Offre 2</b></td>
 			  <td>6</td>
 			  <td>6 000</td>
 			  <td>36 000</td>
 			  <td>60%</td>
 			</tr>
 			<tr>
-			  <td>Offre 3</td>
+			  <td><b>Offre 3</b></td>
 			  <td>6</td>
 			  <td>4 800</td>
 			  <td>19 200</td>
 			  <td>32%</td>
 			</tr>
 			<tr>
-			  <td>Total</td>
+			  <td><b>Total</b></td>
 			  <td></td>
 			  <td></td>
 			  <td>60 000</td>
@@ -902,28 +902,28 @@
 		  </thead>
 		  <tbody>
 			<tr>
-			  <td>Offre 1</td>
+			  <td><b>Offre 1</b></td>
 			  <td>100</td>
 			  <td>2 000</td>
 			  <td>252 000€</td>
 			  <td>40%</td>
 			</tr>
 			<tr>
-			  <td>Offre 2</td>
+			  <td><b>Offre 2</b></td>
 			  <td>21</td>
 			  <td>12 000</td>
 			  <td>48 000</td>
 			  <td>50%</td>
 			</tr>
 			<tr>
-			  <td>Offre 3</td>
+			  <td><b>Offre 3</b></td>
 			  <td>10</td>
 			  <td>4 800</td>
 			  <td>19 200</td>
 			  <td>10%</td>
 			</tr>
 			<tr>
-			  <td>Total</td>
+			  <td><b>Total</b></td>
 			  <td></td>
 			  <td></td>
 			  <td>500 000</td>
@@ -1074,15 +1074,16 @@
 		<br>
 		<!-- FORMULAIRE DE CONTACTE -->
 		<h6 class="docs-header" id="formulaire">Contactez nous</h6>
-		<form>
+		<form action="https://formspree.io/contact@rocket-ar.com"
+      method="POST">
 		  <div class="row">
 			<div class="six columns">
-			  <label for="exampleEmailInput">Your email</label>
-			  <input class="u-full-width" placeholder="test@mailbox.com" id="exampleEmailInput" type="email"/>
+			  <label for="exampleEmailInput">Votre adresse mail</label>
+			  <input class="u-full-width" placeholder="test@mailbox.com" id="exampleEmailInput" type="email" name="mailsrc"/>
 			</div>
 			<div class="six columns">
-			  <label for="exampleRecipientInput">Reason for contacting</label>
-			  <select class="u-full-width" id="exampleRecipientInput">
+			  <label for="exampleRecipientInput">Raison de prise de contacte</label>
+			  <select class="u-full-width" id="exampleRecipientInput" name="raison">
 				<option value="Option 1">Questions</option>
 				<option value="Option 3">Remarques</option>
 				<option value="Option 2">Demande d'information</option>
@@ -1093,7 +1094,7 @@
 		  </div>
 		  <label for="exampleMessage">Message</label>
 		  <div class="row">
-		  <textarea class="eleven columns" placeholder="Votre message" id="exampleMessage"></textarea> <br/>
+		  <textarea class="eleven columns" placeholder="Votre message" id="exampleMessage" name="messagetxt"></textarea> <br/>
 		  </div>
 		  <input class="button-primary" value="Submit" type="submit">
 		</form>
