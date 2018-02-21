@@ -127,6 +127,92 @@ header.fixed > nav {
     display: block;
 }
 
+.crewDesc {
+	display: none;
+	
+	border: 2px dotted green;
+	border-radius: 15px;
+	
+	margin: 10px;
+	padding: 5px;
+}
+
+.offerBox {
+	background-color: #B0E183;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	
+	text-align: center;
+}
+.offerBox-icon {
+	position: relative;
+	top: -35px;
+	width: 60px;
+	height: 60px;
+	margin: auto;
+	padding: 5px 0 0 0;
+	text-align: center;
+	color: #B0E183;
+	background-color: white;
+	border-radius: 1000px;
+}
+.offerBox-title {
+	color: white;
+	background-color: #44BCB2;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: -20px;
+	font-weight: bold;
+}
+.offerBox-content {
+	padding: 15px 5px 15px 5px;
+	
+}
+.offerBox-price {
+	display: inline-block;
+	color: white;
+	background-color: #44BCB2;
+	float: right;
+	padding: 8px;
+	border-top-left-radius: 15px;
+}
+
+
+
+
+.clientBox {
+	background-color: #44BCB2;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	
+	text-align: center;
+}
+.clientBox-icon {
+	position: relative;
+	top: -35px;
+	width: 60px;
+	height: 60px;
+	margin: auto;
+	padding: 5px 0 0 0;
+	text-align: center;
+	color: #44BCB2;
+	background-color: white;
+	border-radius: 1000px;
+}
+.clientBox-title {
+	color: black;
+	background-color: #B0E183;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: -20px;
+	font-weight: bold;
+}
+.clientBox-content {
+	padding: 15px 5px 15px 5px;
+	color:white;
+}
+
+
 
 body {
 	/*
