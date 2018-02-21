@@ -361,7 +361,7 @@ form {
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .u-full-width {
-  width: 80%;
+  width: 100%;
   box-sizing: border-box; }
 .u-max-full-width {
   max-width: 100%;
@@ -370,6 +370,29 @@ form {
   float: right; }
 .u-pull-left {
   float: left; }
+  
+
+.u-90-width {
+	width: 90%;
+	box-sizing: border-box; 
+}
+
+.u-80-width {
+	width: 80%;
+	box-sizing: border-box; 
+}
+.u-60-width {
+	width: 60%;
+	box-sizing: border-box; 
+}
+.u-40-width {
+	width: 40%;
+	box-sizing: border-box; 
+}
+.u-20-width {
+	width: 20%;
+	box-sizing: border-box; 
+}
 
 
 /* Misc
