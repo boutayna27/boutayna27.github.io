@@ -130,7 +130,7 @@ header.fixed > nav {
 .crewDesc {
 	display: none;
 	
-	border: 2px dotted green;
+	border: 2px solid #44BCB2;
 	border-radius: 15px;
 	
 	margin: 10px;
