@@ -1,51 +1,759 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Rocket</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <title>Rocket</title>
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/custom.css">
-  
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
-
-  <!-- JQuery
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  
-  <script type="text/javascript" src="js/rocket.js"></script>
-  
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/logo_Rocket.jpg">
-
-	<!-- Footer
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+    <!-- Font -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="css/slicknav.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Extras Style -->
+    <link rel="stylesheet" type="text/css" href="css/extras.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 	
-</head>
+	 <!-- Favicon
+	  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	  <link rel="icon" type="image/png" href="images/logo_Rocket.jpg">
 
-<body>
-	<center><h3>Site en maintenance</h3></center>
-	<center><img width="100" src="images/logo_Rocket.jpg"></center>
-</body>
+  </head>
+  <body>
+
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
+            <a href="index.html" class="navbar-brand"><img height="50%" width="50%" src="img/logo_Rocket.png" alt=""></a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
+              <li class="nav-item active">
+                <a class="nav-link" href="#sliders">
+                  Acceuil
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">
+                  Présentation
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">
+                  Nos services
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">
+                  Nos partenaires
+                </a>
+              </li>
+			  <li class="nav-item">
+                <a class="nav-link" href="#video">
+                  Rocket IRL
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">
+                  L'équipe
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="mobile-menu navbar-nav">
+          <li>
+            <a class="page-scroll" href="#sliders">
+              Home
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#about">
+              About
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#services">
+              Services
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#portfolio">
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#feature">
+              Features
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#team">
+              Team
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#pricing">
+              Pricing
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+        <!-- Mobile Menu End -->
+
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- sliders -->
+      <div id="sliders">
+        <div class="full-width">
+          <!-- light slider -->
+          <div id="light-slider" class="carousel slide">
+            <div id="carousel-area">
+              <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <img height="400px" src="img/slider/bg-white.png" alt="">
+                    <div class="carousel-caption">
+                      <h3 class="slide-title animated fadeInDown"><span>Rocket</span></h3>
+                      <h5 class="slide-text animated fadeIn"> Rocket est une agence de technologie pure à Shanghai. </br>
+						Rocket se base sur la technologie de réalité augmentée et la metsau service de la communication. Nous proposons une solution permettant d'afficher facilement des objets 3D sur n'import quel site. Le client n'est finalement limité que par son imagination. </h5>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
+                  <i class="fa fa-chevron-left"></i>
+                </a>
+                <a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End sliders -->
+
+    </header>
+    <!-- Header Area wrapper End -->
+
+    <!-- About Section Start -->
+    <div id="about" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="about block text-center">
+              <img src="img/about/laptop-code-solid.svg" alt="">
+              <h5><a href="#">Éditeur de contenu</a></h5>
+              <p>Permettant d'intégrer différents objets et modèles 3D de façon rapide et efficace</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="about block text-center">
+              <img height="80px" src="img/about/mobile-solid.svg" alt="">
+              <h5><a href="#">Application mobile</a></h5>
+              <p>Disponible gratuitement pour tous les utilisateurs et sous différents systèmes d'exploitation</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="about block text-center">
+              <img src="img/about/hands-helping-solid.svg" alt="">
+              <h5><a href="#">Accompagnement</a></h5>
+              <p>Accompagnement personnalisé pour chaque client</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="about block text-center">
+              <img height="80px" src="img/about/comments-regular.svg" alt="">
+              <h5><a href="#">Feedback</a></h5>
+              <p>Feedback précis grâce à l'interactivité et l'implication des utilisateurs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Section End -->
+
+    <!-- Services Section Start -->
+    <section id="services" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Nos services</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Start Service Icon 1 -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="fa fa-cogs"></i>
+              </div>
+              <div class="service-content">
+                <h4><a href="#">Différentiation</a></h4>
+                <p>
+                  Répondre au besoin de se démarquer auprès des visiteurs
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End Service Icon 1 -->
+
+          <!-- Start Service Icon 2 -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="fa fa-cubes"></i>
+              </div>
+              <div class="service-content">
+                <h4><a href="#">Expérience visiteur</a></h4>
+                <p>
+                  Offrir aux visiteurs une expérience interactive et limiter les temps d'attente dans les files
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End Service Icon 2 -->
+
+          <!-- Start Service Icon 3 -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="fa fa-tachometer"></i>
+              </div>
+              <div class="service-content">
+                <h4><a href="#">Feedback en direct</a></h4>
+                <p>
+                  Avoir des retours permettant de mieux connaitre les visiteurs et améliorer leurs expériences
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End Service Icon 3 -->
+
+          <!-- Start Service Icon 4 -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="fa fa-check"></i>
+              </div>
+              <div class="service-content">
+                <h4><a href="#">Présentation</a></h4>
+                <p>
+                  Augmenter l’engagement en changeant le modèle de présentation
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End Service Icon 4 -->
+
+          <!-- Start Service Icon 5 -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="fa fa-flash"></i>
+              </div>
+              <div class="service-content">
+                <h4><a href="#">Interactivité</a></h4>
+                <p>
+                  Permettre un feedback en temps réel des participants pour plus d'interactivité
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End Service Icon 5 -->
+          
+          <!-- Start Service Icon 6 -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="service-box">
+              <div class="service-icon">
+                <i class="fa fa-hand-pointer-o"></i>
+              </div>
+              <div class="service-content">
+                <h4><a href="#">Analyse</a></h4>
+                <p>
+                  Fournir un reporting complet de l'événement pour une prise de décision future
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End Service Icon 6 -->
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section-padding">
+      <!-- Container Starts -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Ils croient en Rocket</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <!-- Portfolio Controller/Buttons -->
+            <div class="controls text-center wow fadeInUpQuick" data-wow-delay=".6s">
+              <a class="filter active btn btn-common" data-filter="all">
+                All 
+              </a>
+              <a class="filter btn btn-common" data-filter=".branding">
+                Parcs d'attraction 
+              </a>
+              <a class="filter btn btn-common" data-filter=".marketing">
+                Communication B-to-B
+              </a>
+			  <a class="filter btn btn-common" data-filter=".planning">
+                Incubateurs
+              </a>
+            </div>
+            <!-- Portfolio Controller/Buttons Ends-->
+          </div>
+
+          <!-- Portfolio Recent Projects -->
+          <div id="portfolio" class="row wow fadeInUpQuick" data-wow-delay="0.8s">
+            <div class="col-lg-2 col-md-6 col-xs-12 mix marketing">
+              <div class="portfolio-item">
+                <div class="portfolio-img">
+                  <img src="img/portfolio/malakoff.png" alt="" />
+                </div>
+                <div class="portfoli-content">
+                  <div class="sup-desc-wrap">
+                    <div class="sup-desc-inner">
+                      <div class="sup-meta-wrap">
+                        <a class="sup-title" href="#">
+                          <h4>Malakoff</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+			
+            <div class="col-lg-2 col-md-6 col-xs-12 mix marketing">
+              <div class="portfolio-item">
+                <div class="portfolio-img">
+                  <img src="img/portfolio/duhno.png" alt="" />
+                </div>
+                <div class="portfoli-content">
+                  <div class="sup-desc-wrap">
+                    <div class="sup-desc-inner">
+                      <div class="sup-meta-wrap">
+                        <a class="sup-title" href="#">
+                          <h4>Duhno</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+			
+            <div class="col-lg-2 col-md-6 col-xs-12 mix marketing">
+              <div class="portfolio-item">
+                <div class="portfolio-img">
+                  <img src="img/portfolio/auditoire.png" alt="" />
+                </div>
+                <div class="portfoli-content">
+                  <div class="sup-desc-wrap">
+                    <div class="sup-desc-inner">
+                      <div class="sup-meta-wrap">
+                        <a class="sup-title" href="#">
+                          <h4>Auditoire</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+			
+            <div class="col-lg-2 col-md-6 col-xs-12 mix marketing">
+              <div class="portfolio-item">
+                <div class="portfolio-img">
+                  <img src="img/portfolio/ktech.png" alt="" />
+                </div>
+                <div class="portfoli-content">
+                  <div class="sup-desc-wrap">
+                    <div class="sup-desc-inner">
+                      <div class="sup-meta-wrap">
+                        <a class="sup-title" href="#">
+                          <h4>K-Tech</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+			
+			<div class="col-lg-2 col-md-6 col-xs-12 mix planning">
+              <div class="portfolio-item">
+                <div class="portfolio-img">
+                  <img src="img/portfolio/frenchTech.png" alt="" />
+                </div>
+                <div class="portfoli-content">
+                  <div class="sup-desc-wrap">
+                    <div class="sup-desc-inner">
+                      <div class="sup-meta-wrap">
+                        <a class="sup-title" href="#">
+                          <h4>French Tech Shanghai</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+			
+            <div class="col-lg-2 col-md-6 col-xs-12 mix branding">
+              <div class="portfolio-item">
+                <div class="portfolio-img">
+                  <img src="img/portfolio/disney.png" alt="" />
+                </div>
+                <div class="portfoli-content">
+                  <div class="sup-desc-wrap">
+                    <div class="sup-desc-inner">
+                      <div class="sup-meta-wrap">
+                        <a class="sup-title" href="#">
+                          <h4>Disneyland Paris</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Container Ends -->
+    </section>
+    <!-- Portfolio Section Ends -->
+	
+	
+	
+	<!-- Other Section Start -->
+    <section id="video" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">La magie de Rocket</h2>
+          </div>
+        </div>
+        <div class="row">
+          
+		  Vidéo marketing
+         
+        </div>
+      </div>
+    </section>
+    <!-- Other Section End -->
+    
+    <!-- Team Section Start -->
+    <div id="team" class="team-members-tow section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Notre équipe</h2>
+          </div>
+        </div>
+		  
+        <div class="row">
+		  <div class="col-lg-1 col-md-6 col-xs-12">
+		  </div>
+		  <div class="col-lg-2 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <figure>
+              <img src="img/team/boutayna.png" alt="">
+              <div class="image-overlay">
+                <div class="overlay-text text-center">
+                  <div class="info-text">
+                    <span>Boutayna Benabou</span>
+                    <span>Développeur</span>
+                  </div>
+                </div>
+              </div>
+            </figure>
+            <!-- Team Item Ends -->
+          </div>
+		  
+          <div class="col-lg-2 col-md-4 col-xs-12">
+            <!-- Team Item Starts -->
+            <figure>
+              <img src="img/team/romain.png" alt="">
+              <div class="image-overlay">
+                <div class="overlay-text text-center">
+                  <div class="info-text">
+                    <span>Romain Dessain Gellinet</span>
+                    <span>CEO</span>
+                  </div>
+                </div>
+              </div>
+            </figure>
+            <!-- Team Item Ends -->
+          </div>
+		  
+		  <div class="col-lg-2 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <figure>
+              <img src="img/team/thomas.png" alt="">
+              <div class="image-overlay">
+                <div class="overlay-text text-center">
+                  <div class="info-text">
+                    <span>Thomas Lamson</span> </br>
+                    <span>Designer</span>
+                  </div>
+                </div>
+              </div>
+            </figure>
+            <!-- Team Item Ends -->
+          </div>
+		  
+          <div class="col-lg-2 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <figure>
+              <img src="img/team/mathilde.png" alt="">
+              <div class="image-overlay">
+                <div class="overlay-text text-center">
+                  <div class="info-text">
+                    <span>Mathilde Mortelecque</span>
+                    <span>Chef de projet</span>
+                  </div>
+                </div>
+              </div>
+            </figure>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-xs-12">
+            <!-- Team Item Starts -->
+            <figure>
+              <img src="img/team/paul.png" alt="">
+              <div class="image-overlay">
+                <div class="overlay-text text-center">
+                  <div class="info-text">
+                    <span>Paul Nissen</span> </br>
+                    <span>Directeur financier</span>
+                  </div>
+                </div>
+              </div>
+            </figure>
+            <!-- Team Item Ends -->
+          </div>
+        </div>
+		<div class="col-lg-1 col-md-6 col-xs-12">
+		</div>
+      </div>
+	  
+    </div>
+    <!-- Team Section End -->
+
+    <!-- Single testimonial Start -->
+    <div class="single-testimonial-area">
+      <div class="container">
+        <div id="single-testimonial-item" class="owl-carousel">
+          <!-- Single testimonial Item -->
+          <div class="item">
+            <div class="row justify-content-md-center">
+              <div class="col-lg-8 col-md-12 col-xs-12 col-md-auto">
+                <div class="testimonial-inner text-md-center">
+                  <blockquote>
+                    L'équipe Rocket s'agrandie, notre premier collaborateur rejoint Rocket dans un mois en tant que <strong>XXX</strong>.
+                  </blockquote>
+                  <div class="testimonial-images">
+                    <img class="img-circle text-md-center" src="img/testimonial/nicolas.jpg" alt="">
+                  </div>
+                  <div class="testimonial-footer">
+                    Nicolas Letendrie
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end -->
+
+    <!-- Contact Form Section Start -->
+    <section id="contact" class="contact-form section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s">Contactez-nous</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 col-md-6 col-xs-12">
+            <h3 class="title-head text-left">Besoin d'informations</h3>
+            <form class="contact-form" data-toggle="validator">
+              <div class="row">
+                <div class="col-lg-4 col-md-12 col-xs-12">
+                  <div class="form-group">
+                    <i class="contact-icon fa fa-user"></i>
+                    <input type="text" class="form-control" id="name" placeholder="NOM Prénom" required data-error="Please enter your name">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-xs-12">
+                  <div class="form-group">
+                    <i class="contact-icon fa fa-envelope-o"></i>
+                    <input type="email" class="form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-xs-12">
+                  <div class="form-group">
+                    <i class="contact-icon fa fa-pencil-square-o"></i>
+                    <input type="text" class="form-control" id="subject" placeholder="Sujet" required data-error="Please enter your Subject">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-xs-12">
+                  <textarea class="form-control" id="message" rows="4" placeholder="Message" required data-error="Please enter your message"></textarea>
+                  <div class="help-block with-errors"></div>
+                  <button type="submit" id="form-submit" class="btn btn-common btn-form-submit">Envoyer</button>
+                  <div id="msgSubmit" class="h3 text-center hidden"></div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <h4 class="contact-info-title text-left">Contact Information</h4>
+            <div class="contact-info">
+              <address>
+              <i class="lni-map-marker icons cyan-color contact-info-icon"></i>
+              Shanghai, Chine
+            </address>
+              <div class="tel-info">
+                <strong>Romain Dessain Gellinet </strong> <a href="tel:+61(8)82343555"><i class="lni-phone icons cyan-color contact-info-icon"></i>+61 (8) 8234 3555</a>
+              </div>
+              <a href="mailto:contact@rocket-ar.com"><i class="lni-envelope icons cyan-color contact-info-icon"></i>contact@rocket-ar.com</a>
+              <a href="#"><i class="lni-tab icons cyan-color contact-info-icon"></i>www.rocket-ar.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Form Section End -->
+
+	  <!-- Footer Section -->
+    <footer class="footer">
+      <!-- Container Starts -->
+      <div class="container">
+        <!-- Row Starts -->
+        <div class="row section">
+          <!-- Footer Widget Starts -->
+          <div class="footer-widget col-lg-3 col-md-6 col-xs-12 wow fadeIn">
+            <h3 class="small-title">
+              Rocket
+            </h3>
+            <p align="justify">
+              Rocket est une agence de technologie pure à Shanghai. </br>
+			  Rocket se base sur la technologie de réalité augmentée et la metsau service de la communication. Nous proposons une solution permettant d'afficher facilement des objets 3D sur n'import quel site. Le client n'est finalement limité que par son imagination.
+            </p>
+            <div class="social-footer">
+              <a href="#"><i class="fa fa-facebook icon-round"></i></a>
+              <a href="#"><i class="fa fa-twitter icon-round"></i></a>
+              <a href="#"><i class="fa fa-linkedin icon-round"></i></a>
+              <a href="#"><i class="fa fa-google-plus icon-round"></i></a>
+            </div>
+          </div>
+          <!-- Footer Widget Ends -->
+
+        </div>
+        <!-- Row Ends -->
+      </div>
+      <!-- Container Ends -->
+
+      <!-- Copyright -->
+      <div id="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-xs-12">
+              <p class="copyright-text">All copyrights reserved © 2018 </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-12">
+              <ul class="nav nav-inline  justify-content-end ">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Acceuil</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright  End-->
+
+    </footer>
+    <!-- Footer Section End-->
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </a>
+    
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.mixitup.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/main.js"></script>
+      
+  </body>
 </html>
