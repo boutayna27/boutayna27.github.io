@@ -177,7 +177,7 @@ a a:focus {
     display: block;
   }
   .slicknav_nav .active a {
-    background: #E91E63;
+    background: #000;
     color: #fff;
   }
   .slicknav_nav a:hover,
